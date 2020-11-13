@@ -1,0 +1,64 @@
+# view res/layout/backend.xml #generated:7
+# view res/layout/fragment_list_items.xml #generated:7
+-keep class com.BogdanMihaiciuc.receipt.DisableableListView { <init>(...); }
+
+# view res/layout/activity_history.xml #generated:7
+-keep class com.BogdanMihaiciuc.receipt.DisableableViewPager { <init>(...); }
+
+# view land/res/layout-land/activity_receipt.xml #generated:25
+# view res/layout/activity_receipt.xml #generated:26
+# view sw600dp-land/res/layout-sw600dp-land/activity_receipt.xml #generated:18
+# view sw600dp/res/layout-sw600dp/activity_receipt.xml #generated:25
+-keep class com.BogdanMihaiciuc.receipt.HeaderFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.BogdanMihaiciuc.receipt.HistoryActivity { <init>(...); }
+
+# view sw600dp-land/res/layout-sw600dp-land/activity_history.xml #generated:14
+# view sw600dp/res/layout-sw600dp/activity_history.xml #generated:14
+-keep class com.BogdanMihaiciuc.receipt.HistoryGridFragment { <init>(...); }
+
+# view land/res/layout-land/activity_receipt.xml #generated:32
+# view res/layout/activity_receipt.xml #generated:33
+# view sw600dp-land/res/layout-sw600dp-land/activity_receipt.xml #generated:25
+# view sw600dp/res/layout-sw600dp/activity_receipt.xml #generated:32
+-keep class com.BogdanMihaiciuc.receipt.ItemListFragment { <init>(...); }
+
+# view res/layout/layout_graph.xml #generated:44
+# view sw600dp/res/layout-sw600dp/layout_graph.xml #generated:44
+-keep class com.BogdanMihaiciuc.receipt.ListenableHorizontalScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.BogdanMihaiciuc.receipt.ReceiptActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.BogdanMihaiciuc.receipt.ReceiptProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.BogdanMihaiciuc.receipt.SettingsActivity { <init>(...); }
+
+# view res/layout/activity_preferences.xml #generated:6
+-keep class com.BogdanMihaiciuc.receipt.SettingsFragment { <init>(...); }
+
+# view sw600dp-land/res/layout-sw600dp-land/activity_history.xml #generated:7
+# view sw600dp/res/layout-sw600dp/activity_history.xml #generated:7
+-keep class com.BogdanMihaiciuc.receipt.StatsFragment { <init>(...); }
+
+# view land/res/layout-land/activity_receipt.xml #generated:50
+# view res/layout/activity_receipt.xml #generated:51
+# view sw600dp-land/res/layout-sw600dp-land/activity_receipt.xml #generated:34
+# view sw600dp/res/layout-sw600dp/activity_receipt.xml #generated:50
+-keep class com.BogdanMihaiciuc.receipt.TotalFragment { <init>(...); }
+
+# onClick land/res/layout-land/fragment_header.xml #generated:30
+# onClick res/layout/fragment_header.xml #generated:30
+# onClick sw600dp-land/res/layout-sw600dp-land/fragment_header.xml #generated:79
+# onClick sw600dp/res/layout-sw600dp/fragment_header.xml #generated:30
+-keepclassmembers class * { *** addNewItemToList(...); }
+
+# onClick res/layout/fragment_total.xml #generated:25
+# onClick sw600dp-land/res/layout-sw600dp-land/fragment_overview.xml #generated:57
+# onClick sw600dp/res/layout-sw600dp/fragment_overview.xml #generated:45
+# onClick sw600dp/res/layout-sw600dp/fragment_total.xml #generated:25
+-keepclassmembers class * { *** showBudgetPopup(...); }
+

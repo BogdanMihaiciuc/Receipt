@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="LineHeight">48dp</dimen>
+    <dimen name="LineHeightx2">96dp</dimen>
+
+    <dimen name="ActionBarSize">48dp</dimen>
+    <dimen name="SearchBarSize">48dp</dimen>
+
+    <dimen name="WelcomeTopMargin">128dp</dimen>
+    <dimen name="WelcomeLogoMargin">64dp</dimen>
+    <dimen name="WelcomeTextMargin">64dp</dimen>
+
+    <dimen name="ListPadding">8dp</dimen>
+    <dimen name="StatsListPadding">8dp</dimen>
+
+
+    <!-- Total Fragment -->
+    <dimen name="EdgePadding">8dp</dimen>
+    <dimen name="PriceTextSize">28sp</dimen>
+    <dimen name="TotalFragmentHeight">48dp</dimen>
+
+    <!-- Header Fragment -->
+    <dimen name="HeaderFragmentHeight">48dp</dimen>
+    <dimen name="GenericHeaderHeight">48dp</dimen>
+    
+    <!-- ActionItem List -->
+    <dimen name="HintTextSize">28sp</dimen>
+    <dimen name="HintMargin">32dp</dimen>
+    
+    <!-- Items -->
+    <dimen name="CollectionItemPadding">8dp</dimen>
+    <dimen name="CollectionTagPadding">4dp</dimen>
+    <dimen name="QtyWidth">100dp</dimen>
+    <dimen name="PriceWidth">100dp</dimen>
+    <dimen name="QtyRightMargin">108dp</dimen>
+    <dimen name="TitleRightMargin">198dp</dimen>
+
+    <!-- History Items -->
+    <dimen name="HistoryQtyWidth">100dp</dimen>
+    <dimen name="HistoryPriceWidth">90dp</dimen>
+    
+    <!-- Global Budget -->
+    <dimen name="AlignmentWidth">192dp</dimen>
+    <dimen name="ListAlignmentWidth">192dp</dimen>
+
+    <!-- Stats -->
+    <dimen name="BreakdownPieSize">192dp</dimen>
+    <dimen name="BreakdownListLandscapeMargin">16dp</dimen>
+
+    <dimen name="GraphPadding">15dp</dimen>
+    
+</resources>

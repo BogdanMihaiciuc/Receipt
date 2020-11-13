@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ListPadding">64dp</dimen>
+    
+    <dimen name="WelcomeTopMargin">256dp</dimen>
+    <dimen name="WelcomeLogoMargin">64dp</dimen>
+    <dimen name="WelcomeTextMargin">64dp</dimen>
+    
+    <!-- Global Budget -->
+    <dimen name="AlignmentWidth">256dp</dimen>
+    <dimen name="ListAlignmentWidth">320dp</dimen>
+
+
+    <!-- History Scraps -->
+
+    <dimen name="HistoryListWindowHeight">-1px</dimen>
+    <dimen name="HistoryListWindowWidth">512dp</dimen>
+    <dimen name="HistoryListWindowPadding">24dp</dimen>
+    <dimen name="HistoryPadding">48dp</dimen>
+
+    <!-- Header Fragment -->
+    <dimen name="HeaderFragmentHeight">56dp</dimen>
+
+    <!-- Stats -->
+    <dimen name="GraphPadding">32dp</dimen>
+
+    <!-- Breadkown -->
+    <dimen name="BreakdownPieSize">192dp</dimen>
+
+    <dimen name="BreakdownPieLeftPadding">4dp</dimen>
+    <dimen name="BreakdownPieRightPadding">0dp</dimen>
+    <dimen name="BreakdownListPadding">4dp</dimen>
+    
+</resources>

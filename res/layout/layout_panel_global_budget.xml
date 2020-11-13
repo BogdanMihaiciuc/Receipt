@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ActionBar" >
+
+    <ImageView
+        android:id="@+id/MenuGraphic"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/menu_bright"
+        android:layout_alignTop="@+id/SettingsBalanceTitle"
+        android:layout_alignBottom="@id/SettingsBalanceTitle"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@id/SettingsBalanceTitle"
+        android:layout_height="@dimen/TotalFragmentHeight"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Balance"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/BackendPanelTitle"
+        android:paddingLeft="14dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/SettingsBalanceText"
+        android:layout_height="@dimen/TotalFragmentHeight"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="@dimen/EdgePadding"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="€1,024"
+        android:textSize="@dimen/PriceTextSize"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:id="@+id/SettingsBalanceProgress"
+        android:layout_height="2dp"
+        android:layout_width="128dp"
+        android:layout_marginRight="@dimen/EdgePadding"
+        android:layout_alignBottom="@id/SettingsBalanceText"
+        android:layout_alignParentLeft="true"
+        android:background="@color/HeaderCanCheckout"/>
+
+    <View
+        android:id="@+id/AlignmentPlaceholder"
+        android:layout_height="1dp"
+        android:layout_width="@dimen/AlignmentWidth"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/BudgetTitle"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/SettingsBalanceTitle"
+        android:layout_alignRight="@id/AlignmentPlaceholder"
+        android:text="@string/budget"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/BackendPanelTitle"/>
+
+    <EditText
+        android:id="@+id/BudgetEditor"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/SettingsBalanceTitle"
+        android:layout_toRightOf="@id/AlignmentPlaceholder"
+        android:layout_marginLeft="48dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="€2,048"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/ResetTitle"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/BudgetTitle"
+        android:layout_alignRight="@id/AlignmentPlaceholder"
+        android:text="@string/Reset"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/BackendPanelTitle"/>
+
+    <Spinner
+        android:id="@+id/ResetType"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/BudgetTitle"
+        android:layout_toRightOf="@id/AlignmentPlaceholder"
+        android:layout_marginLeft="48dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/ResetSubtypePlaceholder"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/ResetTitle"
+        android:layout_toRightOf="@id/AlignmentPlaceholder"
+        android:layout_marginLeft="48dp" />
+
+    <View
+        android:id="@+id/GlobalBudgetSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/ResetSubtypePlaceholder" />
+
+    <!--<LinearLayout
+        android:id="@+id/ButtonStrip"
+        android:layout_below="@id/GlobalBudgetSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/CancelButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/CancelButtonLabel"
+            android:textColor="@android:color/white"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <View
+            android:background="@color/White15"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/OKButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/OKButtonLabel"
+            android:textColor="@android:color/white"
+            style="?android:attr/borderlessButtonStyle" />
+
+    </LinearLayout>-->
+
+</RelativeLayout>

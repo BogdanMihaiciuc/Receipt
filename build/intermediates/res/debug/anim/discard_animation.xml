@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@anim/accelerate_interpolator_double"
+    android:shareInterpolator="true">
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0" 
+        android:duration="700" />
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="20" 
+        android:pivotX="0"
+        android:pivotY="100%"
+        android:duration="700"/>
+    <translate
+        android:fromXDelta="0"
+        android:toXDelta="66%"
+        android:fromYDelta="0"
+        android:toYDelta="0"
+        android:duration="700"
+        />
+        
+</set><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/anim/discard_animation.xml -->

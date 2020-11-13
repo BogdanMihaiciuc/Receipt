@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DashboardAddBalance"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/add_balance_textbox_states"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
+    android:addStatesFromChildren="true"
+    android:paddingLeft="8dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" >
+
+    <EditText
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/null_drawable"
+        android:hint="@string/AddBalanceHint"
+        android:id="@+id/AddBox"
+        android:imeOptions="actionSearch|flagNoExtractUi"
+        android:textIsSelectable="false"
+        android:inputType="textAutoComplete"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="24dp"
+        android:background="@color/separator_gray"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:layout_width="@dimen/ActionBarButtonWidth"
+        android:layout_height="match_parent"
+        android:src="@drawable/content_new_mini_dark"
+        android:id="@+id/AddToBalance"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/dashboard_add_balance.xml -->

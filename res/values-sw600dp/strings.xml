@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="EstimatedTotal">Est. Total</string>
+    
+    <string name="ActionModeDone">done</string>
+    <string name="AddToList">copy</string>
+
+    <string name="ConfirmSelectionMultiple">Delete %1$d?</string>
+    <string name="ConfirmSelectionSingle">Delete %1$d?</string>
+    
+    <string name="PasteLabel">paste</string>
+    
+</resources>

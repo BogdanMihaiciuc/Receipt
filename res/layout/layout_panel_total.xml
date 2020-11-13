@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/DashboardBackground" >
+
+    <include layout="@layout/layout_panel_tab_pricing" />
+    <include layout="@layout/layout_panel_tab_recurrence" />
+
+    <View
+        android:id="@+id/Padding"
+        android:layout_below="@id/PricingView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/separator_gray" />
+
+    <LinearLayout
+        android:id="@+id/TabStrip"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/PanelTabStrip"
+        android:layout_below="@id/Padding"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/PricingTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/pricing"
+            android:contentDescription="@string/none"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <View
+            android:background="@color/separator_gray"
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/ColorTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/recurrence"
+            android:contentDescription="@string/none"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <View
+            android:background="@color/separator_gray"
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/RecurrenceTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/recurrence"
+            android:contentDescription="@string/none"
+            style="?android:attr/borderlessButtonStyle" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/FastStrip"
+        android:layout_height="4dp"
+        android:layout_width="180dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_alignTop="@id/Padding"
+        android:visibility="gone"/>
+
+</RelativeLayout>

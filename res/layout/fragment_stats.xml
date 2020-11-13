@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DashboardBackground"
+    android:id="@+id/StatsRoot">
+
+    <LinearLayout
+        android:layout_height="@dimen/GenericHeaderHeight"
+        android:layout_width="match_parent"
+        android:id="@+id/StatsHeader"
+        android:orientation="horizontal"
+        android:clipChildren="false">
+
+        <TextView
+            android:layout_marginLeft="@dimen/PrimaryKeyline"
+            android:paddingLeft="0dp"
+            android:id="@+id/StatsTitle"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/DashboardText"
+            android:textSize="24sp"
+            android:text="Monthly stats"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/spinner_dark"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="@dimen/ActionBarButtonWidth"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_stats_standard_dark"
+            android:scaleType="centerInside"
+            android:id="@+id/StatsStackMode"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <com.BogdanMihaiciuc.util.TagView
+            android:layout_width="@dimen/ActionBarButtonWidth"
+            android:layout_height="match_parent"
+            android:id="@+id/StatsOverlays"
+            android:paddingLeft="@dimen/PrimaryKeyline"
+            android:paddingRight="@dimen/PrimaryKeyline"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/GenericHeaderHeight"
+        android:layout_marginLeft="@dimen/StatsListPadding"
+        android:layout_marginRight="@dimen/StatsListPadding"
+        android:background="@color/DashboardBackground"
+        android:visibility="invisible"
+        android:id="@+id/StatsOverlayList">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/GraphPadding"
+        android:paddingBottom="@dimen/GraphPadding"
+        android:id="@+id/GraphRoot"
+        android:layout_marginTop="@dimen/GenericHeaderHeight">
+
+        <com.BogdanMihaiciuc.receipt.ListenableHorizontalScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:id="@+id/StatsGraphScroller" >
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <com.BogdanMihaiciuc.util.GraphView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/StatsGraphView"/>
+
+                <View
+                    android:layout_width="@dimen/GraphItemWidth"
+                    android:layout_height="match_parent"
+                    android:id="@+id/GraphRipple"/>
+
+            </FrameLayout>
+        </com.BogdanMihaiciuc.receipt.ListenableHorizontalScrollView>
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            android:background="@color/separator_gray"/>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/SeparatorPortrait"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true" />
+
+    <View
+        android:id="@+id/SeparatorLandscape"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" />
+    
+</RelativeLayout>

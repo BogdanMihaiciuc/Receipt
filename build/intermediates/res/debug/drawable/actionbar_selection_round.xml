@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/SelectionBar" />
+    <corners android:radius="3dp"
+        android:topLeftRadius="3dp" android:topRightRadius="3dp"
+        android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp"/>
+</shape><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/drawable/actionbar_selection_round.xml -->

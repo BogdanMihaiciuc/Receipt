@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/WelcomeClickBlocker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <FrameLayout
+        android:id="@+id/WelcomePanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_list_background" >
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="32dp"
+            tools:ignore="UselessParent" >
+
+	        <ImageView
+	            android:id="@+id/WelcomeIcon"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+            android:padding="32dp"
+	            android:src="@drawable/welcome_icon"
+	            tools:ignore="ContentDescription" />
+	
+	        <ImageView
+	            android:id="@+id/WelcomeLogo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_below="@id/WelcomeIcon"
+	            android:layout_marginTop="@dimen/WelcomeLogoMargin"
+	            android:src="@drawable/logo_dark"
+	            tools:ignore="ContentDescription" />
+	
+	        <TextView
+	            android:id="@+id/WelcomeText"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_below="@id/WelcomeLogo"
+	            android:layout_marginTop="@dimen/WelcomeTextMargin"
+	            android:fontFamily="sans-serif-light"
+	            android:textColor="@color/light_text_gray"
+	            android:textSize="30sp"
+	            android:text="@string/Welcome" />
+        
+   	 	</RelativeLayout>
+   	 	
+    </FrameLayout>
+
+</FrameLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/layout_welcome.xml -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/add_balance_textbox_focused"
+    android:padding="0dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:textSize="24sp"
+        android:text="@string/SetUpBudget"
+        android:textColor="@color/HeaderCanCheckout"
+        android:gravity="center"/>
+
+</FrameLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/dashboard_oobe_button.xml -->

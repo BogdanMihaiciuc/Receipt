@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="@dimen/BackendRowPadding"
+              android:paddingRight="@dimen/BackendRowPadding"
+              android:clipChildren="false"
+              android:baselineAligned="false" >
+
+    <include layout="@layout/backend_scrap"
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_marginTop="8dp"/>
+
+    <include layout="@layout/backend_scrap"
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_marginTop="8dp"/>
+
+</LinearLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/backend_row.xml -->

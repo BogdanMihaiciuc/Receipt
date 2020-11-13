@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/HeadsUpContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/HeadsUpTextSize"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_margin="@dimen/EdgePadding" />
+
+    </FrameLayout>
+
+</FrameLayout>

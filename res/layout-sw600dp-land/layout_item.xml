@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/list_background_drawable"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:paddingLeft="36dp"
+    android:paddingRight="36dp"
+    android:longClickable="true">
+    
+    <View
+        style="@style/ItemSeparator" 
+        android:visibility="invisible"/>
+    
+    <View 
+        android:id="@+id/ItemStrikethrough"
+        style="@style/ItemStrikethrough"/>
+        
+    <TextView
+        android:id="@+id/ItemTitle"
+        style="@style/ItemTitle"
+        android:layout_toLeftOf="@+id/QtyTitle"
+        android:paddingLeft="8dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/ItemTitleEditor"
+        style="@style/ItemTitleEdit"
+        android:layout_toLeftOf="@+id/QtyEditor"
+        android:paddingLeft="8dp"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="textAutoCorrect|textCapWords"
+        android:selectAllOnFocus="true"
+        android:hint="@string/TitleEditHint"
+        android:visibility="invisible"
+        android:popupBackground="@drawable/suggestion_menu"
+        android:dropDownHorizontalOffset="0dp"
+        android:completionThreshold="1"  />
+
+    <View 
+        android:id="@+id/QtyTouchHelper"
+        style="@style/QtyTitleEditTablet"
+        android:background="@android:color/holo_blue_dark"
+        android:visibility="gone"
+        android:layout_toLeftOf="@+id/PriceTitle"/>
+
+    <TextView 
+        android:id="@id/QtyTitle"
+        android:background="@drawable/field_background"
+		style="@style/QtyTitleEditTablet"
+        android:layout_toLeftOf="@+id/PriceTitle"/>
+    
+    <EditText
+        android:id="@id/QtyEditor"
+        style="@style/QtyTitleEditTablet"
+        android:layout_toLeftOf="@+id/PriceEditor"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:hint="@string/QtyEditHint"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@id/PriceTitle"
+        android:background="@drawable/field_background"
+		style="@style/QtyTitleEditTablet"
+        android:paddingRight="8dp"
+        android:layout_alignParentRight="true"/>
+    
+    <EditText
+        android:id="@id/PriceEditor"
+        style="@style/QtyTitleEditTablet"
+        android:layout_alignParentRight="true"
+        android:maxWidth="96dp"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:hint="@string/PriceEditHint"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

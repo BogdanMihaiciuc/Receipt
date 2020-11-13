@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/PricingView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/MenuGraphic"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/menu_dark"
+        android:layout_alignTop="@+id/TotalTitle"
+        android:layout_alignBottom="@id/TotalTitle"
+        android:contentDescription="@string/none"
+        android:visibility="invisible"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@id/TotalTitle"
+        android:layout_height="@dimen/TotalFragmentHeight"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/EstimatedTotal"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/light_text_gray"
+        android:layout_marginLeft="@dimen/SecondaryKeyline"
+        style="?android:attr/borderlessButtonStyle"
+        android:padding="0dp"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/TotalText"
+        android:layout_height="@dimen/TotalFragmentHeight"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="@dimen/EdgePadding"
+        android:textSize="@dimen/PriceTextSize"
+        android:gravity="center_vertical|left"
+        android:textColor="@color/large_price"
+        style="?android:attr/borderlessButtonStyle"
+        android:padding="0dp"
+        android:enabled="false"/>
+
+    <View
+        android:id="@+id/AlignmentPlaceholder"
+        android:layout_height="1dp"
+        android:layout_width="@dimen/ListAlignmentWidth"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/SubtotalRoot"
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/TotalTitle" />
+
+    <TextView
+        android:id="@+id/BalanceTitle"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_alignRight="@id/AlignmentPlaceholder"
+        android:layout_below="@id/SubtotalRoot"
+        android:text="@string/Remaining"
+        android:textSize="16sp"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/DashboardTitle"/>
+
+    <TextView
+        android:id="@+id/BalanceText"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/AlignmentPlaceholder"
+        android:layout_below="@id/SubtotalRoot"
+        android:layout_marginLeft="48dp"
+        android:paddingLeft="8dp"
+        android:text="€10.24"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/BudgetTitle"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_alignRight="@id/AlignmentPlaceholder"
+        android:layout_below="@id/BalanceTitle"
+        android:text="@string/ReservedBudget"
+        android:textSize="16sp"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/DashboardTitle"/>
+
+    <EditText
+        android:id="@+id/BudgetEditor"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:minWidth="125dp"
+        android:gravity="left|center_vertical"
+        android:layout_toRightOf="@id/AlignmentPlaceholder"
+        android:layout_below="@id/BalanceTitle"
+        android:layout_marginLeft="58dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:hint="@string/BudgetUnlimited"
+        android:selectAllOnFocus="true"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:textSize="16sp"
+        android:background="@drawable/textbox_mini_states" />
+
+    <TextView
+        android:id="@+id/TaxTitle"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/BudgetTitle"
+        android:layout_alignRight="@id/AlignmentPlaceholder"
+        android:text="@string/Tax"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/DashboardTitle"/>
+
+    <EditText
+        android:id="@+id/TaxEditor"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:minWidth="125dp"
+        android:gravity="left|center_vertical"
+        android:layout_toRightOf="@id/AlignmentPlaceholder"
+        android:layout_marginLeft="58dp"
+        android:layout_below="@id/BudgetTitle"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:hint="@string/TaxNone"
+        android:selectAllOnFocus="true"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:textSize="16sp"
+        android:background="@drawable/textbox_mini_states" />
+
+</RelativeLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/layout_panel_tab_pricing.xml -->

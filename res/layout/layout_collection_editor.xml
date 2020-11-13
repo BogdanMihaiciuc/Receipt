@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Editor"
+    android:layout_width="match_parent"
+    android:layout_height="48dp" >
+
+    <com.BogdanMihaiciuc.util.TagView
+        android:id="@+id/ItemTagsSpace"
+        android:layout_height="48dp"
+        android:layout_width="@dimen/SecondaryKeyline"
+        android:layout_alignParentLeft="true"
+        android:alpha="0.5"
+        android:clickable="true"/>
+
+    <View 
+        android:id="@+id/TitleCompletionHelper"
+        style="@style/ItemTitleEdit"
+        android:background="@android:color/holo_blue_light"
+        android:visibility="invisible"
+        android:layout_toLeftOf="@+id/QtyEditor"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/ItemTagsSpace" />
+
+    <com.BogdanMihaiciuc.util.ListenableAutoTextView
+        android:id="@+id/ItemTitleEditor"
+        style="@style/ItemTitleEdit"
+        android:layout_toLeftOf="@+id/QtyEditor"
+        android:layout_toRightOf="@id/ItemTagsSpace"
+        android:layout_marginLeft="-8dp"
+        android:paddingLeft="8dp"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="textAutoCorrect|textCapWords"
+        android:selectAllOnFocus="true"
+        android:hint="@string/TitleEditHint"
+        android:visibility="invisible"
+        android:popupBackground="@drawable/suggestion_menu_rounder_no_paddings"
+        android:dropDownHorizontalOffset="0dp"
+        android:completionThreshold="1"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/textbox_mini_states"/>
+
+    <View 
+        android:id="@+id/QtyTouchHelper"
+        style="@style/QtyTitleEdit"
+        android:layout_width="@dimen/QtyWidth"
+        android:background="@android:color/holo_blue_light"
+        android:visibility="gone"
+        android:layout_toLeftOf="@+id/PriceEditor"
+        android:layout_marginBottom="4dp"/>
+    
+    <EditText
+        android:id="@id/QtyEditor"
+        style="@style/QtyTitleEdit"
+        android:layout_width="@dimen/QtyWidth"
+        android:layout_toLeftOf="@+id/PriceEditor"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:hint="@string/QtyEditHint"
+        android:maxLength="8"
+        android:visibility="invisible"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/textbox_mini_states"
+        />
+    
+    <EditText
+        android:id="@id/PriceEditor"
+        style="@style/QtyTitleEdit"
+        android:layout_width="@dimen/PriceWidth"
+        android:layout_alignParentRight="true"
+        android:maxWidth="96dp"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:hint="@string/PriceEditHint"
+        android:maxLength="10"
+        android:visibility="invisible"
+        android:layout_marginRight="@dimen/PrimaryKeyline"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/textbox_mini_states"
+        />
+
+</RelativeLayout>

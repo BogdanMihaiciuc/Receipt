@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/values-it-land/strings.xml -->
+    <eat-comment/>
+    <string name="ActionModeDone">fatto</string>
+    <string name="AddToList">copia</string>
+    <string name="EstimatedTotal">Totale stimato</string>
+    <string name="PasteLabel">incolla</string>
+</resources>

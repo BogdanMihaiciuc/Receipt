@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/android:empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone" >
+    
+    <TextView
+        android:id="@+id/HelpTitle"
+        android:layout_width="match_parent"
+        android:layout_marginTop="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="@color/crossedoff_text_colors"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:text="No Items"/>
+    
+    <TextView
+        android:id="@+id/HelpSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/HelpTitle"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:textColor="@color/crossedoff_text_colors"
+        android:textSize="20sp"
+        android:text="Tap the + button to add some"/>
+    
+</RelativeLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/empty_hint.xml -->

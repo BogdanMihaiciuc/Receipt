@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HistoryBackground">
+
+    <com.BogdanMihaiciuc.util.CollectionView
+        android:id="@+id/History"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/HistoryPadding"
+        android:paddingRight="@dimen/HistoryPadding"
+        android:visibility="gone"/>
+
+    <include layout="@layout/history_header"
+        android:id="@+id/HistoryFloatingHeader"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="@dimen/HistoryPadding"/>
+
+    <include layout="@layout/history_search_bar"/>
+
+</FrameLayout>

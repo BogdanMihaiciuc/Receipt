@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:orientation="vertical"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/DashboardPanelContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/BackendWidth"
+        android:background="@color/DashboardBackground"
+        android:visibility="invisible">
+
+        <com.BogdanMihaiciuc.util.DisableableFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ActionBarSize"
+            android:id="@+id/DashboardActionBarContainer"/>
+
+    </FrameLayout>
+
+    <view class="com.BogdanMihaiciuc.util.Utils$ClippedLayout"
+        android:id="@+id/ActivityContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/BackendWidth">
+
+        <FrameLayout
+            android:id="@+id/ContentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:layout_marginTop="@dimen/ActionBarSize"
+            android:layout_marginBottom="@dimen/TotalFragmentHeight">
+
+            <include layout="@layout/activity_receipt"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/LegacyActionBarContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:name="com.BogdanMihaiciuc.util.LegacyActionBar"
+                android:id="@+id/LegacyActionBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/TotalBottomPanel"
+            android:clipChildren="false">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/shdow_top_bright"
+                android:id="@+id/FooterShadow"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/TotalFragmentHeight"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/TotalFragmentHeight"
+                android:layout_gravity="bottom"
+                android:id="@+id/TotalFragmentContainer"
+                android:background="@android:color/white">
+
+                <fragment
+                    android:id="@+id/totalFragment"
+                    android:name="com.BogdanMihaiciuc.receipt.TotalFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/TotalFragmentHeight"
+                    tools:layout="@layout/fragment_total" />
+
+            </FrameLayout>
+
+            <com.BogdanMihaiciuc.util.FloatingActionButton
+                android:id="@+id/ScrapFAB"
+                android:clickable="true"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="@dimen/FABLeftAnchor"
+                android:layout_marginBottom="@dimen/FABBottomAnchor"
+                android:layout_gravity="bottom"/>
+        </FrameLayout>
+
+    </view>
+
+    <FrameLayout
+        android:id="@+id/BackendContainer"
+        android:layout_width="@dimen/BackendWidth"
+        android:layout_height="match_parent"
+    />
+
+</merge>
+    <!--</RelativeLayout>--><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout-sw600dp/activity_receipt_legacy_bar.xml -->

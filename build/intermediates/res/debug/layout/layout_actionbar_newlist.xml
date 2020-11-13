@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/BackendActionBar"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/ActionBarSize" >
+</FrameLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/layout_actionbar_newlist.xml -->

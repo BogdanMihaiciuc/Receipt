@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/ResetPopoverWidth"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/ResetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/GenericHeaderHeight"
+        android:text="@string/ResetDate"
+        android:textSize="24sp"
+        android:textColor="@color/DashboardText"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/HeaderSeparator" />
+
+    <NumberPicker
+        android:id="@+id/DatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+</LinearLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/dashboard_reset_popover.xml -->

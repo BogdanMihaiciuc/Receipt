@@ -1,0 +1,36 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:context=".ReceiptActivity" >
+
+    <RelativeLayout
+        android:id="@+id/innerList"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/ReceiptBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/headerFragment"
+            android:name="com.BogdanMihaiciuc.receipt.HeaderFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/HeaderFragmentHeight"
+            android:layout_alignParentTop="true"
+            tools:layout="@layout/fragment_header" />
+
+        <fragment
+            android:id="@+id/ItemCollectionFragment"
+            android:name="com.BogdanMihaiciuc.receipt.ItemCollectionFragment"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/headerFragment"
+            android:layout_alignParentBottom="true"
+            tools:layout="@layout/fragment_collection_items" />
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/activity_receipt.xml -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp" >
+
+    <include layout="@layout/welcome_date_item"/>
+    <include layout="@layout/welcome_date_item"/>
+    <include layout="@layout/welcome_date_item"/>
+    <include layout="@layout/welcome_date_item"/>
+    <include layout="@layout/welcome_date_item"/>
+    <include layout="@layout/welcome_date_item"/>
+    <include layout="@layout/welcome_date_item"/>
+
+</LinearLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/welcome_date_row.xml -->

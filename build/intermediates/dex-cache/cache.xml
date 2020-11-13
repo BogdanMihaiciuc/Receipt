@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="ac3d320ffee38108e0e18b2e3c01446cf52a70c3">
+        <dex dex="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/pre-dexed/debug/android-support-v13-14fc93d4bbe02197c9d8e261fc83e9bf33251073.jar" />
+    </item>
+    <item
+        jar="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/pre-dexed/debug/classes-045e3b1b59d708f6a14fc852ec1e30120b6f0a31.jar" />
+    </item>
+    <item
+        jar="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-09fa2abe2ace17dd8f3d83f1e815b27cbd85a3f9.jar" />
+    </item>
+    <item
+        jar="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="b9c504522d97f64025c387493d3989e52bc617bd">
+        <dex dex="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/pre-dexed/debug/android-support-v4-284747b184cee0d807ad6186bc531c0ec87afe41.jar" />
+    </item>
+    <item
+        jar="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/pre-dexed/debug/classes-a67ade3bf129637715e8cdc2b399b2fc5c5a9077.jar" />
+    </item>
+    <item
+        jar="/Applications/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Volumes/Storage HD/Dropbox/Receipt Application/Receipt/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-cbbfcf207266eb76e25b9337dc15359f6ba6651a.jar" />
+    </item>
+
+</items>

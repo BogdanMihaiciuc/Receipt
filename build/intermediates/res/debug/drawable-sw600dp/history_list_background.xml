@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/scrap_window"/>
+
+</selector><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/drawable-sw600dp/history_list_background.xml -->

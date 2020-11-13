@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/TotalSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/HeaderSeparator"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/text_total"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="1dp"
+        android:text="@string/total"
+        android:textSize="24sp"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/DashboardText"
+        android:layout_marginLeft="@dimen/SecondaryKeyline"
+        android:paddingLeft="0dp"
+        android:paddingRight="8dp"
+        android:onClick="showBudgetPopup"/>
+
+    <TextView
+        android:id="@+id/total_sum"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:minWidth="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="@dimen/PrimaryKeyline"
+        android:textSize="@dimen/PriceTextSize"
+        android:gravity="center"
+        android:textColor="@color/DashboardText"
+        android:textIsSelectable="false"
+        android:enabled="false"/>
+
+</RelativeLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/fragment_total.xml -->

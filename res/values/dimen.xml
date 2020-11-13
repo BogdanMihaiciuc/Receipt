@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="PrimaryKeyline">16dp</dimen>
+    <dimen name="FABLeftAnchor">8dp</dimen>
+    <dimen name="FABBottomAnchor">20dp</dimen> <!-- actionbarsize - fabheight / 2 -->
+    <dimen name="KeylineIcon">40dp</dimen>
+    <dimen name="SecondaryKeyline">72dp</dimen>
+    <dimen name="TextSize">16sp</dimen>
+    <dimen name="TitleTextSize">20sp</dimen>
+    
+    <dimen name="DP48">48dp</dimen>
+    <dimen name="LineHeight">56dp</dimen>
+    <dimen name="LineHeightx2">112dp</dimen>
+    <dimen name="ActionBarButtonWidth">56dp</dimen>
+
+    <dimen name="ShadowHeightSmall">4dp</dimen>
+    <dimen name="ShadowHeight">8dp</dimen>
+    
+    <dimen name="WelcomeTopMargin">-280dp</dimen>
+    <dimen name="WelcomeLogoMargin">16dp</dimen>
+    <dimen name="WelcomeTextMargin">16dp</dimen>
+
+    <dimen name="HeadsUpTextSize">56sp</dimen>
+
+    <dimen name="ActionBarSize">56dp</dimen>
+    <dimen name="SearchBarSize">56dp</dimen>
+    
+    <!-- Total Fragment -->
+    <dimen name="EdgePadding">16dp</dimen>
+    <dimen name="PriceTextSize">28sp</dimen>
+    <dimen name="TotalFragmentHeight">56dp</dimen>
+
+    <!-- Header Fragment -->
+    <dimen name="HeaderFragmentHeight">56dp</dimen>
+    <dimen name="GenericHeaderHeight">56dp</dimen>
+    <dimen name="HeaderTextSize">24sp</dimen>
+    
+    <!-- ActionItem List -->
+    <dimen name="HintTextSize">28sp</dimen>
+    <dimen name="HintSubtitleTextSize">20sp</dimen>
+    <dimen name="HintMargin">64dp</dimen>
+    <dimen name="HintBottomMargin">16dp</dimen>
+    
+    <!-- Items -->
+    <dimen name="ItemHeight">48dp</dimen>
+    <dimen name="QtyWidth">50dp</dimen>
+    <dimen name="PriceWidth">85dp</dimen>
+    <dimen name="QtyRightMargin">85dp</dimen>
+    <dimen name="TitleRightMargin">135dp</dimen>
+
+    <!-- History Items -->
+    <dimen name="HistoryQtyWidth">50dp</dimen>
+    <dimen name="HistoryPriceWidth">85dp</dimen>
+
+    <dimen name="ListPadding">0dp</dimen>
+    <dimen name="StatsListPadding">0dp</dimen>
+
+    <!-- Collection Items -->
+    <dimen name="CollectionItemPadding">4dp</dimen>
+    <dimen name="CollectionTagPadding">0dp</dimen>
+    
+    <!-- Backend Scraps -->
+    <dimen name="BackendHeaderTextSize">20sp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendHeaderBaseline">34dp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendHeaderLineSpacing">0dp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendContentMargin">42dp</dimen>  <!-- TODO Changed -->
+    <dimen name="BackendPadding">24dp</dimen>
+
+    <!--  -->
+    <dimen name="BackendTextSize">14sp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendLineHeight">24dp</dimen>  <!-- TODO Changed -->
+    <dimen name="BackendCollectionPadding">8dp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendScrapSize">144dp</dimen>  <!-- TODO Changed -->
+    <dimen name="BackendScrapHeight">144dp</dimen>  <!-- TODO Changed -->
+
+    <dimen name="BackendScrapTopAndBottomMargin">0dp</dimen> <!-- TODO Changed -->
+
+    <dimen name="ResetPopoverWidth">244dp</dimen>
+
+    <!-- History Scraps -->
+    <dimen name="HistoryScrapSize">104dp</dimen> <!-- TODO Changed -->
+    <dimen name="HistoryScrapPadding">22dp</dimen> <!-- TODO Changed -->
+    <dimen name="HistoryScrapDateBaseline">38dp</dimen> <!-- TODO Changed -->
+    <dimen name="HistoryScrapDateSize">22sp</dimen> <!-- TODO Changed -->
+    <dimen name="HistoryScrapPriceSize">26sp</dimen> <!-- TODO Changed -->
+
+    <dimen name="HistoryListWindowPadding">0dp</dimen>
+    
+    <!-- Used in Animations -->
+    <dimen name="BackendScrapImagePadding">8dp</dimen>
+    
+    <!-- Global Budget -->
+    <dimen name="AlignmentWidth">114dp</dimen>
+    <dimen name="ListAlignmentWidth">114dp</dimen>
+
+    <!-- Dashboard -->
+    <dimen name="BalanceTitleSize">24sp</dimen>
+    <dimen name="BalanceTextSize">64sp</dimen>
+    <dimen name="SecondaryTitleSize">18sp</dimen>
+    <dimen name="SecondaryTextSize">24sp</dimen>
+    <dimen name="DashboardPadding">16dp</dimen>
+    <dimen name="DashboardHeight">192dp</dimen>
+    <dimen name="DashboardContentHeight">192dp</dimen>
+    <dimen name="DashboardVerticalPadding">48dp</dimen>
+
+    <dimen name="DashboardLandscapeWidth">240dp</dimen>
+
+    <!-- Stats -->
+    <dimen name="GraphPaddingBottom">8dp</dimen>
+    <dimen name="GraphPadding">0dp</dimen>
+    <dimen name="GraphHeight">192dp</dimen> <!-- TODO Changed -->
+    <dimen name="GraphWidth">320dp</dimen> <!-- TODO Changed -->
+    <dimen name="GraphItemWidth">56dp</dimen>
+
+    <dimen name="BreakdownPieSize">144dp</dimen> <!-- TODO Changed -->
+    <dimen name="BreakdownPiePadding">0dp</dimen>
+    <dimen name="BreakdownPieRightPadding">16dp</dimen>
+    <dimen name="BreakdownListPadding">8dp</dimen>
+    <dimen name="BreakdownNamePadding">56dp</dimen>
+    <dimen name="BreakdownListLandscapeMargin">0dp</dimen>
+
+    <!-- History -->
+    <dimen name="HistoryPadding">0dp</dimen> <!-- TODO Changed -->
+    
+</resources>

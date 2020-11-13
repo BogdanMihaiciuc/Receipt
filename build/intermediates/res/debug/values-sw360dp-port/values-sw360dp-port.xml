@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/values-sw360dp-port/dimen.xml -->
+    <eat-comment/>
+    <dimen name="CollectionItemPadding">8dp</dimen>
+    <dimen name="HistoryPriceWidth">90dp</dimen>
+    <dimen name="HistoryQtyWidth">60dp</dimen>
+    <dimen name="ListPadding">8dp</dimen>
+    <dimen name="PriceWidth">90dp</dimen>
+    <dimen name="QtyRightMargin">98dp</dimen>
+    <dimen name="QtyWidth">60dp</dimen>
+    <dimen name="StatsListPadding">8dp</dimen>
+    <dimen name="TitleRightMargin">158dp</dimen>
+</resources>

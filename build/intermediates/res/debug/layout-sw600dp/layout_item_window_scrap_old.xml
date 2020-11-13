@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/list_background_drawable"
+    android:paddingRight="8dp" >
+    
+    <View 
+        android:id="@+id/SearchHighlight"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/search_overlay"
+        android:visibility="gone" />
+
+    <com.BogdanMihaiciuc.util.TagView
+        android:id="@+id/ItemTags"
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:paddingLeft="@dimen/CollectionTagPadding"
+        android:paddingRight="@dimen/CollectionTagPadding"/>
+
+    <TextView
+        android:id="@+id/ItemTitle"
+        style="@style/ItemTitle"
+        android:layout_toLeftOf="@+id/QtyTitle"
+        android:layout_toRightOf="@id/ItemTags"
+        android:paddingLeft="8dp"/>
+
+    <TextView 
+        android:id="@id/QtyTitle"
+		style="@style/QtyTitleEditTablet"
+		android:textColor="@color/ItemStrikethroughText"
+        android:layout_toLeftOf="@+id/PriceTitle"/>
+
+    <TextView
+        android:id="@id/PriceTitle"
+		style="@style/QtyTitleEditTablet"
+		android:textColor="@color/ItemStrikethroughText"
+        android:paddingRight="8dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout-sw600dp/layout_item_window_scrap_old.xml -->

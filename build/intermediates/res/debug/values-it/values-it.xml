@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="AboutHeader">Informazioni</string>
+    <string name="ActionModeDone"/>
+    <string name="AddButtonHint">Aggiungi articolo</string>
+    <string name="AddButtonLabel">Aggiungi</string>
+    <string name="AddDescription">Il prezzo e la quantità sono opzionali.\nPer cambiare l\'unità di misura, fare uno swipe verso il basso dalla casella della quantità.</string>
+    <string name="AddItem">Aggiungi articolo</string>
+    <string name="AddTitle">Aggiungi articoli</string>
+    <string name="AddToClipboardNo">Gli articoli presenti nella clipoard vengono rimossi quando viene copiato un nuovo articolo</string>
+    <string name="AddToClipboardSetting">Aggiungi alla clipboard</string>
+    <string name="AddToClipboardYes">Gli articoli presenti nella clipoard vengono mantenuti quando viene copiato un nuovo articolo</string>
+    <string name="AddToList"/>
+    <string name="AddToListHint">Copia</string>
+    <string name="AutoCrossOffNo">Gli oggetti non vengono sbarrati quando viene impostato il prezzo</string>
+    <string name="AutoCrossOffSetting">Sbarra gli articoli con prezzo</string>
+    <string name="AutoCrossOffYes">Gli oggetti vengono sbarrati quando viene impostato il prezzo</string>
+    <string name="Average">Media</string>
+    <string name="BackendAddDescription">Puoi muoverti in ogni momento tra le liste attive.</string>
+    <string name="BackendAddTitle">Nuova lista</string>
+    <string name="BackendDescription">Puoi vedere e gestire le liste attive premendo qui.</string>
+    <string name="BackendRemoveDescription">Puoi eliminare una lista attiva lanciandola fuori entrambi i lati.</string>
+    <string name="BackendRemoveTitle">Eliminare una lista</string>
+    <string name="BackendScrapHeader">%1$d rimanente\i</string>
+    <string name="BackendTitle">Liste attive</string>
+    <string name="BudgetAssigned">Budget</string>
+    <string name="BudgetDescriptionPhone">Ti Verrà notificato se il totale supererà il budget.\nLe tasse conteranno ai fini del totale.</string>
+    <string name="BudgetDescriptionTablet">Ti Verrà notificato se il totale supererà il budget.\nLe tasse conteranno ai fini del totale.</string>
+    <string name="BudgetDisplay">Budget: %1$s</string>
+    <string name="BudgetExceededMini">Fuori budget</string>
+    <string name="BudgetExceededTitle">Fuori budget</string>
+    <string name="BudgetRemaining">Budget rimanente</string>
+    <string name="BudgetSetting">Avviso di superamento del budget</string>
+    <string name="BudgetTitle">Budget and Tasse</string>
+    <string name="BudgetUnlimited">Illimitato</string>
+    <string name="CanCheckoutMini">Completa</string>
+    <string name="CanCheckoutTitle">Completa</string>
+    <string name="CancelButtonLabel">Annulla</string>
+    <string name="CancelTask">Annulla %1$s</string>
+    <string name="CheckoutDate">Data di acquisto</string>
+    <string name="CheckoutDescription">Verrà creata una nuova lista nello storico per gli articoli sbarrati.</string>
+    <string name="CheckoutOverlayTitle">Acquistati</string>
+    <string name="CheckoutTime">Ora di acquisto</string>
+    <string name="CheckoutTitle">Checkout</string>
+    <string name="ClearBudget">Cancella budget</string>
+    <string name="ClearClipboard">Pulisci la clipboard</string>
+    <string name="ConfirmScrapTitle">Eliminare questa lista?</string>
+    <string name="ConfirmSelection">Eliminare la selezione?</string>
+    <string name="ConfirmWholeHistory">Cancellare lo storico?</string>
+    <string name="ContinuousTask" ns1:ignore="TypographyEllipsis">%1$s...</string>
+    <string name="Count">x</string>
+    <string name="CountStats">Liste totali</string>
+    <string name="CrossOffDescriptionWithTap">Premi su un articolo o imposta il prezzo per sbarrarlo.</string>
+    <string name="CrossOffDescriptionWithoutTap">Premi su un articolo o imposta il prezzo per sbarrarlo.</string>
+    <string name="CrossOffTitle">Sbarra gli articoli</string>
+    <string name="CurrencyDisplaySetting">Mostra il simbolo della valuta</string>
+    <string name="CurrencyHeader">Valuta</string>
+    <string name="CurrencySymbolSetting">Simbolo della valuta</string>
+    <string name="DeleteHint">Elimina</string>
+    <string name="DeleteLabel">Elimina</string>
+    <string name="DeleteOverlayTitle">Eliminati</string>
+    <string name="DoneButtonLabel">Fatto</string>
+    <string name="EstimatedTotal">Totale stimato</string>
+    <string name="Gram">g</string>
+    <string name="GrouperDescription">Ti permette di visualizzare il grafico e le liste nello storico raggruppandoli per anno, mese, settimana o giorno.</string>
+    <string name="GrouperHelpTitle">Raggruppamento dello storico</string>
+    <string name="GrouperMenu">Opzioni di visualizzazione</string>
+    <string name="GrouperTitle">Opzioni di visualizzazione</string>
+    <string name="GrouperTypePostLabel">per</string>
+    <string name="GrouperTypePreLabel"/>
+    <string name="HeaderThisMonth">Questo mese</string>
+    <string name="HeaderThisWeek">Questa settimana</string>
+    <string name="HeaderThisYear">Questo anno</string>
+    <string name="HintDescription">Premi l\'icona + per aggiungere qualcosa</string>
+    <string name="HintTitle">Nessun articolo</string>
+    <string name="HistoryDescription">Lo storico mostra le liste vecchie e le statistiche.</string>
+    <string name="HistoryScrapDescription">Premere su una qualunque lista per vedere gli articoli contenuti.</string>
+    <string name="HistoryScrapTitle">Storico</string>
+    <string name="HistoryTabDescription">Lo storico visualizza le liste degli acquisti.</string>
+    <string name="HistoryTabLabel">Storico</string>
+    <string name="HistoryTabTitle">Storico</string>
+    <string name="HistoryTitle">Storico</string>
+    <string name="HourOfDay">Ora del giorno</string>
+    <string name="ItemCopy">Copia</string>
+    <string name="ItemCount">Articoli</string>
+    <string name="ItemCrossOff">Sbarra</string>
+    <string name="ItemCut">Taglia</string>
+    <string name="ItemDelete">Elimina</string>
+    <string name="ItemInputHint">Impostando il prezzo, l\'articolo verrà sbarrato.</string>
+    <string name="ItemReadd">Riaggiungi</string>
+    <string name="ItemRename">Rinomina</string>
+    <string name="ItemsInClipboard">Articoli nella clipboard</string>
+    <string name="ItemsLeftMini">%1$d rimanente\i</string>
+    <string name="ItemsLeftTitle">%1$d da acquistare</string>
+    <string name="Kilogram">kg</string>
+    <string name="ListHeader">Liste</string>
+    <string name="Litre">l</string>
+    <string name="LoadingTitle"/>
+    <string name="MakeActive">Copia tutto</string>
+    <string name="MeasurementUnit">Unità di misura</string>
+    <string name="MenuBackend">Liste attive</string>
+    <string name="MenuBackendMultiple">%1$d liste attive</string>
+    <string name="MenuBackendSingle">1 lista attiva</string>
+    <string name="Monthly">Mese</string>
+    <string name="NewList">Nuova lista</string>
+    <string name="NewListMini">Nuova lista</string>
+    <string name="NewListTitle">Nuova lista</string>
+    <string name="NextButtonLabel">Successivo</string>
+    <string name="NoHistory">Nessuno elemento</string>
+    <string name="NoResults">Nessun risultato</string>
+    <string name="NotificationNo">La notifica non viene mai mostrata</string>
+    <string name="NotificationSetting">Mostra notifica</string>
+    <string name="NotificationYes">Viene mostrata la notifica quando ci sono ancora articoli rimanenti</string>
+    <string name="OKButtonLabel">Ok</string>
+    <string name="Ounce">oz</string>
+    <string name="PasteAll">Incolla tutto</string>
+    <string name="PasteHint">Incolla</string>
+    <string name="PasteLabel"/>
+    <string name="Pound">lb</string>
+    <string name="PriceEditHint">Prezzo</string>
+    <string name="PriceStats">Prezzo totale</string>
+    <string name="QtyEditHint">Q.tà</string>
+    <string name="RemainingBudgetDisplay">Rimanente: %1$s</string>
+    <string name="ReorderNo">Gli articoli sbarrati non vengono spostati</string>
+    <string name="ReorderSetting">Sposta gli articoli sbarrati</string>
+    <string name="ReorderYes">Gli articoli sbarrati vengono spostati in fondo</string>
+    <string name="ScrapCheckedOut">Acquistati</string>
+    <string name="ScrapDate">Data</string>
+    <string name="ScrapDate2">%1$s %2$d</string>
+    <string name="ScrapItems">%1$d articoli</string>
+    <string name="ScrapOverflowDescription">Puoi vedere i dettagli o aggiungere tutti gli elementi alla lista attiva.</string>
+    <string name="ScrapOverflowTitle">Altre azioni</string>
+    <string name="ScrapPrice">%1$s%2$d</string>
+    <string name="ScrapTapDescription">Puoi premere sugli articoli per selezionarli.\nPossono essere così aggiunti alla lista attiva.</string>
+    <string name="ScrapTapTitle">Aggiungi alla lista corrente</string>
+    <string name="Search">Cerca</string>
+    <string name="SearchDescription">Ti permette di trovare le liste che contengono l\'articolo specificato.</string>
+    <string name="SearchMenu">Cerca</string>
+    <string name="SearchTitle">Cerca</string>
+    <string name="SelectAll">Seleziona tutto</string>
+    <string name="SetBudget">Imposta budget</string>
+    <string name="SetDefault">Salva</string>
+    <string name="SetTax">Imposta tasse</string>
+    <string name="ShowDetails">Mostra dettagli</string>
+    <string name="ShowItems">Mostra articoli</string>
+    <string name="StatDescriptionPhone">Premi su una qualsiasi barra del grafico per visualizzarne il totale.</string>
+    <string name="StatDescriptionTablet">Premi su una qualsiasi barra del grafico per visualizzarne il totale e le liste dello storico associate.</string>
+    <string name="StatTitle">Statistiche</string>
+    <string name="StatZoomDescription">Puoi eseguire un pinch-zoom per aumentare o dimunire la dimensione delle barre del grafico.</string>
+    <string name="StatZoomTitle">Zoom</string>
+    <string name="StatsTabDescription">Le statistiche presentano un grafico di quanto è stato speso.</string>
+    <string name="StatsTabLabel">Statistiche</string>
+    <string name="StatsTabTitle">Statistiche</string>
+    <string name="Subtotal">Subtotale</string>
+    <string name="SubtotalDisplay">Subtotale: %1$s</string>
+    <string name="TaskClearHistory">Pulisci lo storico</string>
+    <string name="TaskDeleteItem">Elimina articolo</string>
+    <string name="TaskLoad">Caricamento</string>
+    <string name="TaskSearch">Ricerca</string>
+    <string name="Tax">Tasse</string>
+    <string name="TaxDisplay">Tasse: %1$s%%</string>
+    <string name="TitleEditHint">Articolo</string>
+    <string name="Total">Totale</string>
+    <string name="TotalItemCount">Articoli totali</string>
+    <string name="UndoCheckoutHint">Annulla checkout</string>
+    <string name="UndoLabel">Annulla</string>
+    <string name="VersionDisplay">Versione</string>
+    <string name="Weekday">Giorno della settimana</string>
+    <string name="Weekly">Settimana</string>
+    <string name="Welcome">Benvenuto</string>
+    <string name="Yearly">Anno</string>
+    <!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Receipt</string>
+    <string name="budget">Budget</string>
+    <string name="menu_checkout">Checkout</string>
+    <string name="menu_clear_history">Cancella lo storico</string>
+    <string name="menu_discard">Elimina lista</string>
+    <string name="menu_help">Aiuto</string>
+    <string name="menu_history">Storico</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="none"/>
+    <string name="title_activity_history">Storico</string>
+    <string name="total">Totale</string>
+</resources>

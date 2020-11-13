@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ReceiptActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_gravity="top"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/SearchBack"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/caret_up_light"
+        android:fontFamily="sans-serif"
+        android:paddingRight="16dp"
+        android:paddingLeft="4dp"
+        android:text="@string/Search"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" >
+    </TextView>
+
+    <EditText
+        style="@android:style/Widget.Holo.EditText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingRight="16dp"
+        android:paddingLeft="8dp"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="8dp"
+        android:textColor="@android:color/white"
+        android:inputType="textNoSuggestions"
+        android:imeOptions="actionSearch|flagNoExtractUi" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.BogdanMihaiciuc.util.Picker
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/Picker" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/HeaderSeparator" />
+
+    <TextView  style="?android:attr/borderlessButtonStyle"
+        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:text="@string/AddItem"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/DashboardText"
+        android:id="@+id/AddResetButton"
+        />
+
+</LinearLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/popover_dashboard_reset_picker.xml -->

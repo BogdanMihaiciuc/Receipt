@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity" >
+
+    <com.BogdanMihaiciuc.receipt.DisableableViewPager
+        android:id="@+id/HistoryPager"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent">
+
+        <include layout="@layout/history_sections" />
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <fragment
+                android:id="@+id/HistoryGridFragment"
+                android:name="com.BogdanMihaiciuc.receipt.HistoryGridFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout="@layout/fragment_history"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <fragment
+                android:id="@+id/StatsFragment"
+                android:name="com.BogdanMihaiciuc.receipt.StatsFragment"
+                android:layout_width="@dimen/GraphWidth"
+                android:layout_height="match_parent"
+                tools:layout="@layout/fragment_stats"/>
+
+            <fragment
+                android:id="@+id/BreakdownFragment"
+                android:name="com.BogdanMihaiciuc.receipt.BreakdownFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/GraphWidth"
+                android:layout_marginBottom="@dimen/TotalFragmentHeight"
+                tools:layout="@layout/breakdown"/>
+
+            <FrameLayout
+                android:layout_height="@dimen/TotalFragmentHeight"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/GraphWidth"
+                android:paddingLeft="@dimen/ListPadding"
+                android:paddingRight="@dimen/ListPadding"
+                android:background="@color/GradientStart">
+
+                <include layout="@layout/fragment_total"/>
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="@dimen/ShadowHeight"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/GraphWidth"
+                android:background="@drawable/shdow_right_bright"/>
+
+        </FrameLayout>
+
+    </com.BogdanMihaiciuc.receipt.DisableableViewPager>
+
+</RelativeLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout-land/activity_history.xml -->

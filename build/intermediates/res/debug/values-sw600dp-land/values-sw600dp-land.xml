@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/values-sw600dp-land/dimen.xml -->
+    <eat-comment/>
+    <dimen name="AlignmentWidth">256dp</dimen>
+    <dimen name="BreakdownListPadding">4dp</dimen>
+    <dimen name="BreakdownPieLeftPadding">4dp</dimen>
+    <dimen name="BreakdownPieRightPadding">0dp</dimen>
+    <dimen name="BreakdownPieSize">192dp</dimen>
+    <dimen name="GraphPadding">32dp</dimen>
+    <dimen name="HeaderFragmentHeight">56dp</dimen>
+    <dimen name="HistoryListWindowHeight">-1px</dimen>
+    <dimen name="HistoryListWindowPadding">24dp</dimen>
+    <dimen name="HistoryListWindowWidth">512dp</dimen>
+    <dimen name="HistoryPadding">48dp</dimen>
+    <dimen name="ListAlignmentWidth">320dp</dimen>
+    <dimen name="ListPadding">64dp</dimen>
+    <dimen name="WelcomeLogoMargin">64dp</dimen>
+    <dimen name="WelcomeTextMargin">64dp</dimen>
+    <dimen name="WelcomeTopMargin">256dp</dimen>
+    <!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/values-sw600dp-land/strings.xml -->
+    <eat-comment/>
+    <string name="EstimatedTotal">Estimated Total</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="EstimatedTotal">Totale stimato</string>
+    
+    <string name="ActionModeDone">fatto</string>
+    <string name="AddToList">copia</string>
+    
+    <string name="PasteLabel">incolla</string>
+    
+</resources>

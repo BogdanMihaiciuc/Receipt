@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="316dp"
+              android:layout_height="200dp"
+              android:layout_gravity="center"
+              android:background="@drawable/suggestion_menu"
+              android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/TagText" />
+
+    <ListView
+        android:id="@+id/TagList"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:divider="@drawable/null_drawable" />
+
+</LinearLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/tag_popup.xml -->

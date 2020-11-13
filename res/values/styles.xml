@@ -1,0 +1,175 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="AppThemeBackground" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/gradient_list_background</item>
+    </style>
+    
+    <style name="HeaderSeparator">
+        <item name="android:background">@color/HeaderSeparator</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    
+    <style name="ItemTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/set_text_colors</item>
+    </style>
+    
+    <style name="ItemSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/HeaderSeparator</item>
+    </style>
+    
+    <style name="ItemStrikethrough">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.5dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@color/ItemImplicitValue</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    
+    <style name="ItemTitleEdit">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/set_text_colors</item>
+    </style>
+    
+    <style name="QtyTitleEdit">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/set_text_colors</item>
+    </style>
+    
+    <style name="QtyTitle">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/set_text_colors</item>
+    </style>
+    
+    <style name="QtyTitleEditTablet" parent="QtyTitleEdit">
+        <item name="android:layout_width">128dp</item>
+    </style>
+    
+    <style name="QtyTitleTablet" parent="QtyTitle">
+        <item name="android:layout_width">128dp</item>
+    </style>
+
+    <style name="HistoryHeader">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/ItemStrikethroughLine</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="ItemInputHint">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">@color/light_text_gray</item>
+        <item name="android:text">@string/ItemInputHint</item>
+    </style>
+    
+    <style name="ScrapDate">
+		<item name="android:layout_marginLeft">16dp</item>
+		<item name="android:layout_marginRight">16dp</item>
+		<item name="android:layout_marginTop">12dp</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/ScrapText</item>
+	    <item name="android:text">@string/ScrapDate</item>
+		<item name="android:maxLines">1</item>
+    </style>
+    
+    <style name="ScrapItems" parent="ScrapDate">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+	    <item name="android:text">@string/ScrapItems</item>
+    </style>
+    
+    <style name="ScrapPrice" parent="ScrapItems">
+		<item name="android:textSize">24sp</item>
+		<item name="android:textColor">@color/ScrapPrice</item>
+	    <item name="android:text">@string/ScrapPrice</item>
+		<item name="android:maxLines">1</item>
+		<item name="android:gravity">right</item>
+    </style>
+    
+    <style name="ScrapSeparator">
+        <item name="android:background">@color/HeaderSeparator</item>
+		<item name="android:layout_marginLeft">16dp</item>
+		<item name="android:layout_marginRight">16dp</item>
+		<item name="android:layout_marginTop">4dp</item>
+    </style>
+    
+    <style name="ScrapDateTablet" parent="ScrapDate">
+		<item name="android:layout_marginTop">16dp</item>
+		<item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="ScrapItemsTablet" parent="ScrapItems">
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    
+    <style name="ScrapPriceTablet" parent="ScrapPrice">
+    </style>
+    
+    <style name="ScrapSeparatorTablet" parent="ScrapSeparator">
+		<item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="null_dialog_animation" >
+        <item name="android:windowEnterAnimation">@anim/null_animation</item>
+        <item name="android:windowExitAnimation">@anim/null_animation</item>
+    </style>
+
+    <style name="popover_dialog_animation" >
+        <item name="android:windowEnterAnimation">@anim/popover_enter</item>
+        <item name="android:windowExitAnimation">@anim/popover_exit</item>
+    </style>
+
+    <style name="modal_dialog_animation" >
+        <item name="android:windowEnterAnimation">@anim/modal_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/modal_popup_exit</item>
+    </style>
+
+    <style name="popover_dialog_animation_land" >
+        <item name="android:windowEnterAnimation">@anim/popover_enter_land</item>
+        <item name="android:windowExitAnimation">@anim/popover_exit_land</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Editor"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:paddingLeft="@dimen/PrimaryKeyline"
+    android:paddingRight="@dimen/PrimaryKeyline"
+    android:clickable="true" >
+    
+    <View
+        android:id="@+id/EditorFloatingBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/floating_editor" />
+    
+    <View 
+        android:id="@+id/ItemStrikethrough"
+        style="@style/ItemStrikethrough"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+    <View 
+        android:id="@+id/TitleCompletionHelper"
+        style="@style/ItemTitleEdit"
+        android:background="@android:color/holo_blue_light"
+        android:visibility="invisible"
+        android:layout_toLeftOf="@+id/QtyEditor"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/ItemTitleEditor"
+        style="@style/ItemTitleEdit"
+        android:layout_toLeftOf="@+id/QtyEditor"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="8dp"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="textAutoCorrect|textCapWords"
+        android:selectAllOnFocus="true"
+        android:hint="@string/TitleEditHint"
+        android:visibility="invisible"
+        android:popupBackground="@drawable/suggestion_menu"
+        android:dropDownHorizontalOffset="0dp"
+        android:completionThreshold="1"
+        android:layout_marginBottom="4dp" />
+        
+    <TextView
+        android:id="@+id/ItemTitle"
+        style="@style/ItemTitle"
+        android:layout_toLeftOf="@+id/QtyTitle"
+        android:paddingLeft="8dp"
+        android:layout_marginLeft="8dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:background="@drawable/list_background_drawable"
+        android:visibility="invisible"/>
+
+    <View 
+        android:id="@+id/QtyTouchHelper"
+        style="@style/QtyTitleEdit"
+        android:layout_width="@dimen/QtyWidth"
+        android:background="@android:color/holo_blue_light"
+        android:visibility="gone"
+        android:layout_toLeftOf="@+id/PriceEditor"
+        android:layout_marginBottom="4dp"/>
+    
+    <EditText
+        android:id="@id/QtyEditor"
+        style="@style/QtyTitleEdit"
+        android:layout_width="@dimen/QtyWidth"
+        android:layout_toLeftOf="@+id/PriceEditor"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:hint="@string/QtyEditHint"
+        android:maxLength="8"
+        android:visibility="invisible"
+        android:layout_marginBottom="4dp"
+        />
+    
+    <TextView 
+        android:id="@id/QtyTitle"
+        style="@style/QtyTitleEdit"
+        android:layout_width="@dimen/QtyWidth"
+        android:background="@drawable/field_background"
+        android:layout_toLeftOf="@+id/PriceTitle"
+        android:visibility="invisible"/>
+    
+    <EditText
+        android:id="@id/PriceEditor"
+        style="@style/QtyTitleEdit"
+        android:layout_width="@dimen/PriceWidth"
+        android:layout_alignParentRight="true"
+        android:maxWidth="96dp"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:hint="@string/PriceEditHint"
+        android:maxLength="10"
+        android:visibility="invisible"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@id/PriceTitle"
+        style="@style/QtyTitleEdit"
+        android:layout_width="@dimen/PriceWidth"
+        android:background="@drawable/field_background"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/layout_list_editor.xml -->

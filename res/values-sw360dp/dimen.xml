@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backend Scraps -->
+    <dimen name="BackendHeaderTextSize">24sp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendHeaderBaseline">40dp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendHeaderLineSpacing">0dp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendContentMargin">56dp</dimen> <!-- TODO Changed -->
+
+    <!--  -->
+    <dimen name="BackendTextSize">16sp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendLineHeight">24dp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendCollectionPadding">8dp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendScrapSize">172dp</dimen> <!-- TODO Changed -->
+    <dimen name="BackendScrapHeight">168dp</dimen>  <!-- TODO Changed -->
+
+    <dimen name="BackendScrapTopAndBottomMargin">0dp</dimen> <!-- TODO Changed -->
+
+    <!-- History Scraps -->
+    <dimen name="HistoryScrapSize">112dp</dimen> <!-- TODO Changed -->
+    <dimen name="HistoryScrapPadding">24dp</dimen> <!-- TODO Changed -->
+    <dimen name="HistoryScrapDateBaseline">40dp</dimen> <!-- TODO Changed -->
+    <dimen name="HistoryScrapDateSize">22sp</dimen> <!-- TODO Changed -->
+    <dimen name="HistoryScrapPriceSize">26sp</dimen> <!-- TODO Changed -->
+
+    <!-- Stats -->
+    <dimen name="GraphHeight">224dp</dimen> <!-- TODO Changed -->
+    <dimen name="GraphWidth">360dp</dimen> <!-- TODO Changed -->
+
+    <dimen name="BreakdownPieSize">192dp</dimen> <!-- TODO Changed -->
+
+    <!-- History -->
+    <dimen name="HistoryPadding">8dp</dimen> <!-- TODO Changed -->
+    
+</resources>

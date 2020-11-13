@@ -1,0 +1,86 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_backend"
+        android:icon="@drawable/ic_backend"
+        android:showAsAction="ifRoom"
+        android:visible="false"
+        android:title="@string/MenuBackend"/>
+
+    <item android:id="@+id/MenuEditDashboard"
+        android:icon="@drawable/ic_history"
+        android:visible="false"
+        android:title="@string/menu_history"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/MenuAddList"
+        android:icon="@drawable/ic_history"
+        android:visible="false"
+        android:title="@string/menu_history"
+        android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/menu_history"
+          android:icon="@drawable/ic_history"
+          android:visible="false"
+          android:title="@string/menu_history"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/menu_reset"
+          android:icon="@drawable/navigation_cancel"
+          android:title="[Dev] Switch to new implementation"
+          android:showAsAction="never"
+          android:visible="false"/>
+    
+    <item android:id="@+id/menu_date_checkout"
+          android:icon="@drawable/navigation_cancel"
+          android:title="[Dev] Checkout to specific date"
+          android:visible="false"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/menu_backup"
+          android:title="[Dev] Backup"
+          android:visible="true"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/menu_restore"
+          android:title="[Dev] Restore"
+          android:visible="true"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/menu_scrap_clear"
+          android:icon="@drawable/navigation_cancel"
+          android:title="[Dev] Clear scraps in month"
+          android:visible="false"
+          android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_share_mini"
+        android:title="@string/MenuShare"/>
+
+    <item
+        android:id="@+id/menu_new_receipt"
+        android:showAsAction="never"
+        android:visible="false"
+        android:title="@string/NewList"/>
+    
+    <item android:id="@+id/menu_discard"
+          android:title="@string/menu_discard"
+          android:visible="true"
+          android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+
+    <item
+        android:id="@+id/menu_help"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/menu_help"/>
+    
+
+</menu><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/menu/activity_receipt.xml -->

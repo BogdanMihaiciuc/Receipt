@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item
+        type="id"
+        name="BreakDown" />
+
+    <item
+        type="id"
+        name="PieChart" />
+
+    <item
+        type="id"
+        name="AddFeedbackView" />
+
+    <item
+        type="id"
+        name="action_show_details" />
+
+    <item
+        type="id"
+        name="DashboardEditBudget" />
+
+    <item
+        type="id"
+        name="DashboardEditReset" />
+
+    <item
+        type="id"
+        name="DashboardEditSpent" />
+
+    <item
+        type="id"
+        name="DashboardEditBalance" />
+
+    <item
+        type="id"
+        name="StatsRangePanel" />
+
+    <item
+        type="id"
+        name="StatsPrecisionSlider" />
+
+    <item
+        type="id"
+        name="StatsRangeSlider" />
+
+    <item
+        type="id"
+        name="CheckoutDate" />
+
+    <item
+        type="id"
+        name="CheckoutTime" />
+
+    <item
+        type="id"
+        name="ItemCount" />
+
+    <item
+        type="id"
+        name="BudgetAssigned" />
+
+    <item
+        type="id"
+        name="BudgetRemaining" />
+
+    <item
+        type="id"
+        name="Tax" />
+
+    <item
+        type="id"
+        name="Subtotal" />
+
+
+    <item
+        type="id"
+        name="PasteAll" />
+
+
+    <item
+        type="id"
+        name="AddAll" />
+
+    <item
+        type="id"
+        name="MetadataKey" />
+
+    <item
+        type="id"
+        name="CollectionTagKey" />
+
+
+</resources>

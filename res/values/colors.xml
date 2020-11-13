@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="HalfWhite">#88ffffff</color>
+    <color name="QuarterWhite">#AAffffff</color>
+    <color name="White15">#383838</color>
+    <color name="HoloLighter">#8833B5E5</color>
+    <color name="transparent">#00000000</color>
+    <color name="Black">#000</color>
+
+    <color name="HistoryScrapDate">#9A000000</color>
+    <color name="HistoryScrapMonth">#55000000</color>
+    <color name="HistoryScrapPrice">#77000000</color>
+
+    <!--<color name="HistoryBackground">#fff3f3f6</color>-->
+    <!--<color name="HistoryBackground">#e5e7e8</color>-->
+    <color name="HistoryBackground">#e5e7e9</color>
+    <!--<color name="HistoryBackgroundTransparent">#00f3f3f6</color>-->
+    <color name="HistoryBackgroundTransparent">#00cacccf</color>
+    <color name="HistoryHeader">#797a7c</color>
+    <color name="HistoryHeaderTransparent">#80000000</color>
+    <color name="HistoryHeaderInverted">#80FFFFFF</color>
+
+    <color name="separator_gray">#c3c3c3</color>
+    <color name="DashboardSeparator">#DEDEDE</color>
+    <color name="DashboardSeparatorTransparent">#1F000000</color>
+    <color name="light_text_gray">#656565</color>
+    <color name="BackendPanelTitle">#888888</color>
+
+    <color name="large_price">#222222</color>
+    <color name="OverBudget">#e63939</color>
+    <color name="UnlimitedBudget">#c8c8c7</color>
+
+    <color name="ActionBar">#1f2025</color>
+    <color name="ActionMode">#004b83</color>
+    <color name="SelectionBar">#0885bd</color>
+    <color name="ActionBarText">#dfdfdf</color>
+
+    <color name="DeleteStripBackground">#797a7c</color>
+
+    <color name="HeaderCanCheckout">#229fd7</color>
+    <color name="HeaderSeparator">#0F000000</color>
+    <color name="HeaderCantCheckout">#e6e6e8</color>
+    <color name="HeaderCantCheckoutOld">#ccccd1</color>
+    <color name="HeaderOverBudget">#e63939</color>
+    <color name="ActionBarOverBudget">#e63939</color>
+    <color name="DashboardOverBudget">#e63939</color>
+
+    <color name="ItemTitle">#222222</color>
+    <color name="ItemImplicitValue">#45000000</color>
+    <color name="ItemStrikethroughLine">#54000000</color>
+    <color name="ItemStrikethroughText">#7F000000</color>
+
+    <color name="ScrapText">#A8222222</color>
+    <color name="ScrapPrice">#222222</color>
+
+    <color name="YellowBannerBlackText">#90000000</color>
+
+    <color name="PanelTabStrip">#f2f2f2</color>
+
+    <!-- Dashboard -->
+    <color name="DashboardTitle">#55000000</color>
+    <color name="DashboardSubtitle">#33000000</color>
+    <color name="DashboardTitleOpaque">#FF888888</color>
+    <color name="DashboardText">#9A000000</color>
+    <color name="ItemText">#BB000000</color>
+    <color name="ItemSetValue">#70000000</color>
+    <color name="DashboardTextOpaque">#FF656565</color>
+    <color name="DashboardSecondaryTitle">#55000000</color>
+    <color name="DashboardSecondaryText">#9A000000</color>
+    <color name="DashboardBackground">#FDFDFD</color>
+    <color name="DashboardActionBar">#FDFDFD</color>
+    <color name="ReceiptBackground">#fff3f3f6</color>  <!--GradientStart-->
+
+    <color name="GraphBaseColor">#FFcfd0d0</color>
+    <color name="GraphSelector">#10292F55</color>
+
+    <color name="GradientStart">#fff3f3f6</color>
+    <color name="BackendTransparentStrip">#AAf3f3f6</color>
+
+    <color name="SuperSecretDeveloperConsoleLine">#22FFFFFF</color>
+
+</resources>

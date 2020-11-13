@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ReceiptActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:id="@+id/Confirmator"
+    android:background="@android:color/holo_orange_dark" >
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:clipChildren="false">
+
+	    <TextView
+	        android:id="@+id/ConfirmBack"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+            android:gravity="center_vertical"
+	        android:fontFamily="sans-serif"
+	        android:paddingLeft="@dimen/PrimaryKeyline"
+	        android:text="@string/ConfirmTagDelete"
+	        android:textColor="@android:color/white"
+	        android:textSize="18sp" >
+	    </TextView>
+	    
+	    <View
+	        android:layout_height="1dp"
+	        android:layout_width="0dp"
+	        android:layout_weight="1" />
+	
+	    <TextView
+	        android:id="@+id/ConfirmCancel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        style="?android:attr/borderlessButtonStyle"
+	        android:fontFamily="sans-serif"
+	        android:paddingRight="16dp"
+	        android:paddingLeft="16dp"
+	        android:text="@string/CancelButtonLabel"
+	        android:textColor="@android:color/white"
+	        android:textAllCaps="true"
+	        android:textStyle="bold"
+	        android:textSize="12sp" />
+	    
+	    <View
+	        android:layout_height="24dp"
+	        android:layout_width="1dp"
+	        android:layout_gravity="center"
+	        android:background="#33000000" />
+	
+	    <TextView
+	        android:id="@+id/ConfirmOK"
+	        android:layout_width="64dp"
+	        android:layout_height="match_parent"
+	        style="?android:attr/borderlessButtonStyle"
+	        android:fontFamily="sans-serif"
+	        android:paddingRight="8dp"
+	        android:paddingLeft="8dp"
+	        android:text="@string/DeleteLabel"
+	        android:textColor="@android:color/white"
+	        android:textAllCaps="true"
+	        android:textStyle="bold"
+	        android:textSize="12sp" />
+    
+    </LinearLayout>
+
+</FrameLayout>

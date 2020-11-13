@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Backend Scraps -->
+    <dimen name="BackendHeaderTextSize">26sp</dimen>
+    <dimen name="BackendHeaderHeight">48dp</dimen>
+    <dimen name="BackendHeaderLineSpacing">4dp</dimen>
+    <dimen name="BackendHeaderExtraMargin">4dp</dimen>
+    <!--  -->
+    <dimen name="BackendTextSize">16sp</dimen>
+    <dimen name="BackendLineHeight">24dp</dimen>
+    <dimen name="BackendContentMargin">64dp</dimen>
+    <!--<dimen name="BackendPadding">18dp</dimen>-->
+
+    <dimen name="BackendScrapSize">200dp</dimen>
+    <dimen name="BackendScrapHeight">192dp</dimen>
+
+    <dimen name="TouchableBackendWidth">200dp</dimen>
+    <dimen name="BackendWidth">216dp</dimen>
+
+</resources>

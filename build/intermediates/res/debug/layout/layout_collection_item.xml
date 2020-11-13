@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ItemHeight"
+    android:longClickable="true" >
+
+    <com.BogdanMihaiciuc.util.DisableableFrameLayout
+        android:id="@+id/ItemRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:duplicateParentState="false"
+        >
+
+        <com.BogdanMihaiciuc.util.TagView
+            android:id="@+id/ItemTags"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_height="@dimen/ItemHeight"
+            android:layout_width="@dimen/SecondaryKeyline"
+            android:paddingLeft="@dimen/PrimaryKeyline"
+            android:paddingRight="@dimen/PrimaryKeyline"/>
+
+        <View
+            android:id="@+id/ItemStrikethrough"
+            style="@style/ItemStrikethrough"
+            android:layout_marginLeft="@dimen/PrimaryKeyline"
+            android:layout_marginRight="@dimen/PrimaryKeyline"
+            android:layout_gravity="center_vertical"/>
+	        
+	    <TextView
+	        android:id="@+id/ItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ItemHeight"
+            android:gravity="left|center_vertical"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/set_text_colors"
+            android:textIsSelectable="false"
+            android:layout_marginLeft="@dimen/SecondaryKeyline"
+            android:layout_marginRight="@dimen/TitleRightMargin"
+            android:maxLines="2"
+            android:ellipsize="end" />
+	
+	    <View
+
+            android:duplicateParentState="false"
+	        android:id="@+id/QtyTouchHelper"
+            android:layout_height="@dimen/ItemHeight"
+	        android:layout_width="@dimen/QtyWidth"
+	        android:background="@android:color/holo_blue_light"
+	        android:visibility="gone"
+            android:layout_marginRight="@dimen/QtyRightMargin"
+            android:layout_gravity="right"/>
+	    
+	    <TextView 
+	        android:id="@+id/QtyTitle"
+            android:layout_height="@dimen/ItemHeight"
+            android:gravity="right|center_vertical"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/set_text_colors"
+	        android:textIsSelectable="false"
+	        android:layout_width="@dimen/QtyWidth"
+	        android:background="@drawable/field_background"
+            android:layout_marginRight="@dimen/QtyRightMargin"
+            android:layout_gravity="right"
+            android:duplicateParentState="false" />
+	
+	    <TextView
+	        android:id="@+id/PriceTitle"
+            android:layout_height="@dimen/ItemHeight"
+            android:gravity="right|center_vertical"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/set_text_colors"
+	        android:textIsSelectable="false"
+	        android:ellipsize="end"
+        	android:maxLines="1"
+	        android:layout_width="@dimen/PriceWidth"
+	        android:background="@drawable/field_background"
+        	android:paddingLeft="8dp"
+	        android:layout_marginRight="@dimen/PrimaryKeyline"
+	        android:layout_gravity="right"
+            android:duplicateParentState="false" />
+
+    </com.BogdanMihaiciuc.util.DisableableFrameLayout>
+
+</FrameLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/layout_collection_item.xml -->

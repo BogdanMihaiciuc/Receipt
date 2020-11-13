@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop = "16dp"
+    android:baselineAligned="false"
+    android:clipChildren="false"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        android:clipChildren="false"
+        tools:ignore="UselessParent" >
+
+        <RelativeLayout
+            android:id="@+id/HistoryScrap1"
+            android:clipChildren="false"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/history_scrap_tablet" >
+
+            <TextView
+                android:id="@+id/HistoryDate1"
+                style="@style/ScrapDateTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/HistoryItems1"
+                style="@style/ScrapItemsTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HistoryDate1" />
+
+            <View
+                android:id="@+id/HistorySeparator1"
+                style="@style/ScrapSeparatorTablet"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/HistoryItems1" />
+
+            <TextView
+                android:id="@+id/HistoryPrice1"
+                style="@style/ScrapPriceTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HistorySeparator1" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent" >
+
+        <RelativeLayout
+            android:id="@+id/HistoryScrap2"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/history_scrap_tablet" >
+
+            <TextView
+                android:id="@+id/HistoryDate2"
+                style="@style/ScrapDateTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/HistoryItems2"
+                style="@style/ScrapItemsTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HistoryDate2" />
+
+            <View
+                android:id="@+id/HistorySeparator2"
+                style="@style/ScrapSeparatorTablet"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/HistoryItems2" />
+
+            <TextView
+                android:id="@+id/HistoryPrice2"
+                style="@style/ScrapPriceTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HistorySeparator2" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent" >
+
+        <RelativeLayout
+            android:id="@+id/HistoryScrap3"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/history_scrap_tablet" >
+
+            <TextView
+                android:id="@+id/HistoryDate3"
+                style="@style/ScrapDateTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/HistoryItems3"
+                style="@style/ScrapItemsTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HistoryDate3" />
+
+            <View
+                android:id="@+id/HistorySeparator3"
+                style="@style/ScrapSeparatorTablet"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/HistoryItems3" />
+
+            <TextView
+                android:id="@+id/HistoryPrice3"
+                style="@style/ScrapPriceTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HistorySeparator3" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent" >
+
+        <RelativeLayout
+            android:id="@+id/HistoryScrap4"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/history_scrap_tablet" >
+
+            <TextView
+                android:id="@+id/HistoryDate4"
+                style="@style/ScrapDateTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/HistoryItems4"
+                style="@style/ScrapItemsTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HistoryDate4" />
+
+            <View
+                android:id="@+id/HistorySeparator4"
+                style="@style/ScrapSeparatorTablet"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/HistoryItems4" />
+
+            <TextView
+                android:id="@+id/HistoryPrice4"
+                style="@style/ScrapPriceTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/HistorySeparator4" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

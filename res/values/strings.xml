@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+	<!--  -->
+    <string name="app_name">Receipt</string>
+
+    <!-- Tab names -->
+    <string name="HistoryTabLabel">History</string>
+    <string name="StatsTabLabel">Stats</string>
+    <string name="BreakdownTabLabel">Breakdown</string>
+    
+    <!-- Menus -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_history">History</string>
+    <string name="MenuEditDashboard">Edit Balance</string>
+    <string name="NewList">New List</string>
+    <string name="menu_discard">Discard List</string>
+    <string name="menu_help">Help</string>
+
+    <string name="DiscardConfirmation">Delete this list?</string>
+    <string name="DiscardOK">Delete</string>
+    
+    <string name="menu_checkout">Checkout</string>
+    <string name="UndoCheckoutHint">Undo Checkout</string>
+    
+    <string name="MenuBackend">Open Lists</string>
+    <string name="MenuBackendMultiple">%1$d Open Lists</string>
+    <string name="MenuBackendSingle">1 Open List</string>
+    
+    <string name="MenuShare">Share</string>
+    <string name="ShareHint">Share</string>
+    
+    <string name="menu_clear_history">Clear History</string>
+
+    <!-- Help strings -->
+    <string name="total">Total</string>
+    <string name="EstimatedTotal">Est. Total</string>
+    <string name="budget">Budget</string>
+    <string name="BudgetUnlimited">Unlimited</string>
+    <string name="ReservedBudget">Limit</string>
+    
+    <!-- Budget popup items -->
+    <string name="SetBudget">Set Budget</string>
+    <string name="ClearBudget">Clear Budget</string>
+    <string name="BudgetDisplay">Budget: %1$s</string>
+    <string name="RemainingBudgetDisplay">Remaining: %1$s</string>
+    <!-- Tax popup items -->
+    <string name="SubtotalDisplay">Subtotal: %1$s</string>
+    <string name="TaxDisplay">Tax: %1$s%%</string>
+    <string name="SetTax">Set Tax</string>
+    <string name="Tax">Tax</string>
+    <string name="TaxNone">No Tax</string>
+
+    <!-- Recurrence tab -->
+    <string name="RecurrenceTitle">Update</string>
+
+    <!-- Tags -->
+    <string name="SearchTags">Search or create</string>
+    <string name="SearchTagsReadonly">Search tags</string>
+    <string name="SearchTagsWriteonly">Create tag</string>
+    <string name="AddTag">Add Tag</string>
+    <string name="NewTag">New Tag</string>
+    <string name="ClearTags">Delete All Tags</string>
+    <string name="UncommonTags">Distinct Tags</string>
+    <string name="CreateTag">Create Tag: %1$s</string>
+    <string name="TagHeaderHue">Hue</string>
+    <string name="TagHeaderBrightness">Brightness</string>
+    <string name="ConfirmTagDelete">Delete?</string>
+    <string name="TagNameHint">Name</string>
+
+    <string name="Red">Red</string>
+    <string name="Yellow">Yellow</string>
+    <string name="Green">Green</string>
+    <string name="Blue">Blue</string>
+    <string name="Purple">Purple</string>
+    <string name="Gray">Gray</string>
+
+    <!-- Dashboard -->
+    <string name="Today">Today</string>
+    <string name="ThisWeek">This Week</string>
+    <string name="BackendScrapHeader">%1$d left</string>
+    <string name="SourceExternal">Open Files</string>
+    <string name="SourceLibrary">Lists</string>
+    <string name="SourceLibraryText">%1$d Lists</string>
+    <string name="SourceLibrarySingleText">1 List</string>
+    
+    <!-- Global budget panel items -->
+    <string name="Balance">Balance</string>
+    <string name="Remaining">Remaining</string>
+    <string name="Debt">Debt</string>
+    <string name="Reset">Reset</string>
+    <string name="Budget">Budget</string>
+    <string name="Spent">Spent</string>
+    <string name="AddBalanceHint">Add to Balance</string>
+    <!-- Global budget reset types -->
+    <string name="ResetDate">Reset date</string>
+    <string name="ResetTypeManually">Don\'t reset</string>
+    <string name="ResetDisplay">On the %1$d%2$s</string>
+
+    <string name="SuffixST">st</string>
+    <string name="SuffixND">nd</string>
+    <string name="SuffixRD">rd</string>
+    <string name="SuffixTH">th</string>
+
+    <string name="ResetTypeMonthly">Monthly</string>
+    <string name="MonthlyTypeOnDate">On date</string>
+    <string name="MonthlyTypeOnFirst">On first</string>
+    <string name="MonthlyTypeOnLast">On last</string>
+    <string name="WeekdayTypeFirst">First %1$s</string>
+    <string name="WeekdayTypeLast">Last %1$s</string>
+    <string name="ResetTypeTwicePerMonth">Twice Per Month</string>
+    <string name="ResetTypeWeekly">Weekly</string>
+    <string name="WeeklyTypePrefix">Every</string>
+
+    <string name="ResetFieldHint">Don\'t reset</string>
+    
+    <!-- Common Button Labels -->
+    <string name="AddButtonLabel">Add</string>
+    <string name="NextButtonLabel">Next</string>
+    <string name="DoneButtonLabel">Done</string>
+    
+    <!-- Header Titles -->
+    <string name="CanCheckoutTitle">Complete</string>
+    <string name="ItemsLeftTitle">%1$d left to buy</string>
+    <string name="NewListTitle">New List</string>
+    <string name="BudgetExceededTitle">Over budget</string>
+    
+    <!-- Backend Header Titles -->
+    <string name="CanCheckoutMini">Complete</string>
+    <string name="ItemsLeftMini">%1$d left</string>
+    <string name="NewListMini">New List</string>
+    <string name="BudgetExceededMini">Over Budget</string>
+    
+    <!-- Editor Hints -->
+    <string name="LoadingTitle"></string>
+    <string name="TitleEditHint">Name</string>
+    <string name="QtyEditHint">Qty</string>
+    <string name="PriceEditHint">Price</string>
+    
+    <!-- Units of Measurement -->
+    <string name="MeasurementUnit">Unit</string>
+    <!-- These don't need translations -->
+    <string name="Count">x</string>
+    <string name="Gram">g</string>
+    <string name="Kilogram">kg</string>
+    <string name="Litre">l</string>
+    <string name="Ounce">oz</string>
+    <string name="Pound">lb</string>
+
+    <!-- New Item over scroller -->
+    <string name="DragToAdd">Drag to add item</string>
+    <string name="ReleaseToAdd">Release to add item</string>
+    
+    <!--  -->
+    <string name="ItemInputHint">When you set the price, the item will be crossed off.</string>
+    <string name="ItemDelete">Delete</string>
+    <string name="ItemCut">Cut</string>
+    <string name="ItemCopy">Copy</string>
+    <string name="ItemRename">Rename</string>
+    <string name="ItemEditTags">Edit Tags</string>
+    <string name="ItemCrossOff">Cross Off</string>
+    
+    <!--  -->
+    <string name="SelectAll">Select All</string>
+    <string name="ItemReadd">Re-add</string>
+    <string name="AddButtonHint">Add Item</string>
+    <string name="none"></string>
+    <string name="title_activity_history">History</string>
+    
+    <!--  -->
+    <string name="ItemsInClipboard">Clipboard</string>
+    <string name="PasteAll">Paste All</string>
+    <string name="PasteSelection">Paste Selection</string>
+    <string name="PasteHint">Paste</string>
+    <string name="PasteHintDescriptionSingle">1 item in clipboard</string>
+    <string name="PasteHintDescriptionMultiple">%1$d items in clipboard</string>
+    <string name="PasteLabel"></string>
+    <string name="ClearClipboard">Clear Clipboard</string>
+    
+    <!--  -->
+    <string name="ScrapDate2">%1$s %2$d</string>
+    <string name="ScrapItems">%1$d Items</string>
+    <string name="ScrapPrice">%1$s%2$d</string>
+    <string name="ScrapCheckedOut">Checked Out</string>
+    <string name="ScrapDate">Date</string>
+    
+    <!-- Stats Header -->
+    <string name="HeaderThisYear">This Year</string>
+    <string name="HeaderThisQuarter">This Quarter</string>
+    <string name="HeaderThisMonth">This Month</string>
+    <string name="HeaderThisWeek">This Week</string>
+
+    <string name="StatsStackModeTooltip">Tag Stacking Mode</string>
+    <string name="StatsStackModeOverlay">Overlaid</string>
+    <string name="StatsStackModeStacked">Stacked</string>
+
+    <string name="OverlayTagsTooltip">Tags in Graph</string>
+    <string name="OverlayTagsTooltipNoTags">No tags</string>
+    
+    <!--  -->
+    <string name="CancelTask">Cancel %1$s</string>
+    <string name="TaskClearHistory">Clear History</string>
+    <string name="TaskDeleteItem">Delete Item</string>
+	<!--  -->
+    <string name="ContinuousTask" tools:ignore="TypographyEllipsis">%1$s...</string>
+    <string name="TaskLoad">Loading</string>
+    <string name="TaskSearch">Searching</string>
+    
+    <!--  -->
+    <string name="Average">Average</string>
+    <string name="Total">Total</string>
+
+    <!-- Stat Titles -->
+    <!-- e.g. Q3 -->
+    <string name="QuarterDisplayMini">Q%1$d</string>
+    <!-- e.g. Q3, 2013 -->
+    <string name="QuarterDisplayCompact">Q%1$d %2$d</string>
+    <!-- e.g. Quarter 2 -->
+    <string name="QuarterDisplayCurrent">Quarter %1$d</string>
+    <!-- e.g. Quarter 1, 2012 -->
+    <string name="QuarterDisplayFormer">Quarter %1$d, %2$d</string>
+    
+    <!--  -->
+    <string name="AddItem">Add Item</string>
+    <string name="CommonlyUsedItems">Used often</string>
+    <string name="AddAll">Add All</string>
+    
+    <!-- Type spinner values -->
+	<string name="PriceStats">Total Price</string>
+	<string name="CountStats">Total Receipts</string>
+    <!-- Precision spinner values -->
+	<string name="Yearly">Year</string>
+    <string name="Quarterly">Quarter</string>
+	<string name="Monthly">Month</string>
+	<string name="Weekly">Week</string>
+
+    <string name="YearlyDisplay">Yearly stats</string>
+    <string name="QuarterlyDisplay">Quarterly stats</string>
+    <string name="MonthlyDisplay">Monthly stats</string>
+
+	<!-- Statistic precisions; These values exist multiple times in the same year -->
+	<string name="Weekday">Weekday</string>
+	<string name="HourOfDay">Hour of Day</string>
+	
+	<!-- ActionBar Views -->
+	<string name="GrouperTitle">Display Options</string>
+	<string name="GrouperTypePreLabel"></string>
+	<string name="GrouperTypePostLabel">by</string>
+    <string name="SelectionTitle"> %1$d selected</string>
+	<!-- Receipt delete confirmation -->
+	<string name="ConfirmScrapTitle">Delete this receipt?</string>
+	<string name="ConfirmWholeHistory">Clear history?</string>
+	<string name="ConfirmSelection">Delete selection?</string>
+    <string name="ConfirmSelectionMultiple">Delete %1$d lists?</string>
+    <string name="ConfirmSelectionSingle">Delete %1$d list?</string>
+    <string name="OKButtonLabel">OK</string>
+    <string name="CancelButtonLabel">Cancel</string>
+
+    <string name="ActionDelete">Delete</string>
+    <!--  -->
+	
+	<!--  Detail titles -->
+	<string name="CheckoutDate">Date</string>
+	<string name="CheckoutTime">Time</string>
+	<string name="ItemCount">Items</string>
+	<string name="TotalItemCount">Total items</string>
+	<string name="BudgetAssigned">Limit</string>
+	<string name="BudgetRemaining">Remaining</string>
+	<string name="Subtotal">Subtotal</string>
+	<!-- These two empty strings are only visible on landscape or tablets -->
+    <string name="ActionModeDone"></string>
+    <string name="AddToList"></string>
+    <string name="AddToListHint">Copy</string>
+    <string name="DeleteHint">Delete</string>
+    
+    <!-- Search -->
+	<string name="Search">Search history</string>
+	<string name="NoResults">Nothing Found</string>
+	
+	<string name="NoHistory">No Items</string>
+	
+	<!-- Search menu -->
+	<string name="GrouperMenu">Display Options</string>
+	<string name="SearchMenu">Search</string>
+    <string name="BreakdownMenu">Break Down</string>
+	<string name="SetDefault">Save</string>
+	
+	
+	<!-- No Items Hint -->
+	<string name="HintTitle">No Items</string>
+	<string name="HintDescription">Tap the + icon to add some</string>
+
+    <!-- Welcome -->
+    <string name="Welcome">Welcome</string>
+    <string name="SetUpBudget">Set up budget</string>
+    <string name="SetUpDone">Done</string>
+    <string name="SetUpSkip">Skip</string>
+
+    <!--  -->
+    <string name="Details">Details</string>
+    <string name="ShowDetails">Show Details</string>
+    <string name="ShowItems">Show Items</string>
+    <string name="MakeActive">Copy All</string>
+
+    <!-- File Errors -->
+    <string name="FileErrorTitle">Couldn\'t open file</string>
+    <string name="FileErrorDescription">Couldn\'t open this file because %1$s.</string>
+    <string name="ErrorUnknownFile">it is not a receipt</string>
+    <string name="ErrorIOException">an error has occurred</string>
+    <string name="ErrorEarlyEOF">it is incomplete</string>
+    <string name="ErrorNewerVersion">it requires a newer version of Receipt</string>
+    <string name="ErrorNotFound">it is locked</string>
+	
+	<!-- Help pages -->
+	<!-- Receipt Help -->
+	<string name="AddTitle">Add Items</string>
+	<string name="AddDescription">The price and quantity are optional.\nTo change the unit of measurement, swipe down from the quantity box.</string>
+	<!--  -->
+	<string name="BudgetTitle">Budget and Tax</string>
+	<string name="BudgetDescriptionPhone">You\'ll be notified if the total exceeds the budget.\nThe tax counts towards your total.</string>
+	<string name="BudgetDescriptionTablet">You\'ll be notified if the total exceeds the budget.\nThe tax counts towards your total.</string>
+	<!--  -->
+	<string name="CheckoutTitle">Checkout</string>
+	<string name="CheckoutDescription">This creates a new list for crossed off items in History.</string>
+	<!--  -->
+	<string name="HistoryTitle">History</string>
+	<string name="HistoryDescription">The History shows previous lists and stats.</string>
+	<!--  -->
+	<string name="CrossOffTitle">Cross Items Off</string>
+	<string name="CrossOffDescriptionWithTap">Tap on an item or set its price to cross it off.</string>
+	<string name="CrossOffDescriptionWithoutTap">You can also cross items off by setting their price.</string>
+	<!--  -->
+	<string name="BackendTitle">Active Lists</string>
+	<string name="BackendDescription">You can see and manage your active lists by tapping here.</string>
+	
+	<!-- Backend Help -->
+	<string name="BackendAddTitle">New List</string>
+	<string name="BackendAddDescription">You can switch between open lists at any time.</string>
+	
+	<string name="BackendRemoveTitle">Deleting Lists</string>
+	<string name="BackendRemoveDescription">You can delete open lists by flinging them off to either side.</string>
+	
+	<!-- History Help -->
+	<string name="GrouperHelpTitle">History Grouping</string>
+	<string name="GrouperDescription">This lets you group the chart bars and lists in history by year, month, week or weekday.</string>
+	<!--  -->
+	<string name="SearchTitle">Search</string>
+	<string name="SearchDescription">This lets you find lists which contain specific items.</string>
+	<!--  -->
+	<string name="StatTitle">Stats</string>
+	<string name="StatDescriptionTablet">Tap on any chart bar to show its total and the history items associated with it.</string>
+	<string name="StatDescriptionPhone">Tap on any chart bar to show its total.</string>
+	<!--  -->
+	<string name="StatZoomTitle">Zoom</string>
+	<string name="StatZoomDescription">You can pinch-zoom to make the graph bars wider or narrower.</string>
+	<!--  -->
+	<string name="HistoryScrapTitle">History</string>
+	<string name="HistoryScrapDescription">Tap on any receipt to see the items in it.</string>
+	<!--  -->
+	<string name="HistoryTabTitle">History</string>
+	<string name="HistoryTabDescription">The history tab show the lists you previously checked out.</string>
+	<!--  -->
+	<string name="StatsTabTitle">Stats</string>
+	<string name="StatsTabDescription">The stats tab has a graph of your spendings.</string>
+	
+	<!-- Scrap Help -->
+	<string name="ScrapTapTitle">Add to current list</string>
+	<string name="ScrapTapDescription">You can tap on items in this list to select them.\nThey can be added to the active list afterwards.</string>
+	<!--  -->
+	<string name="ScrapOverflowTitle">More Actions</string>
+	<string name="ScrapOverflowDescription">The overflow menu lets you view details or add all the items to the current list.</string>
+	
+	
+	<!-- Delete Popup -->
+	<string name="DeleteOverlayTitle">Deleted</string>
+    <string name="DeleteItemOverlayTitle">Deleted %1$s</string>
+    <string name="DeleteItemOverlayTitleMultiple">Deleted %1$d items</string>
+    <string name="OrderOverlayTitle">Ordered by name</string>
+	<string name="CheckoutOverlayTitle">Checked out</string>
+	<string name="UndoLabel">Undo</string>
+	<string name="DeleteLabel">Delete</string>
+	
+	<!-- Settings -->
+    <string name="SearchCurrenciesHint">Search currencies</string>
+
+	<string name="ListHeader">LISTS</string>
+	
+	<string name="ReorderSetting">Reorder crossed-off items</string>
+	<string name="ReorderYes">Crossed-off items moved to bottom</string>
+	<string name="ReorderNo">Crossed-off items aren\'t reordered</string>
+
+    <string name="ShakeToSortSetting">Shake to sort</string>
+	
+	<string name="BudgetSetting">Budget exceeded alarm</string>
+	
+	<string name="AutoCrossOffSetting">Cross-off items with prices</string>
+	<string name="AutoCrossOffYes">Items are crossed-off when setting their price</string>
+	<string name="AutoCrossOffNo">Items are not crossed-off when setting their price</string>
+	
+	<string name="NotificationSetting">Show notification</string>
+	<string name="NotificationYes">Notification is displayed when there are still items left</string>
+	<string name="NotificationNo">Notification is never displayed</string>
+	
+	<string name="AddToClipboardSetting">Add to clipboard</string>
+	<string name="AddToClipboardYes">Previous items are kept in the clipboard when copying new ones</string>
+	<string name="AddToClipboardNo">Previous items are removed from the clipboard when copying new ones</string>
+	
+	<string name="CurrencyHeader">CURRENCY</string>
+	
+	<string name="CurrencyDisplaySetting">Show currency symbol</string>
+	<string name="CurrencySymbolSetting">Currency symbol</string>
+	
+	<string name="AboutHeader">ABOUT</string>
+	
+	<string name="VersionDisplay">Version</string>
+
+    <!-- Super Secred Developer Console -->
+    <string name="DevTitle">Super Secret\nDeveloper Console</string>
+    <string name="SuperSecretLine1">You have reached the\u0020</string>
+    <string name="SuperSecretLine2">Super Secret Developer Console.</string>
+    <string name="SuperSecretLine3Pre">Press\u0020</string>
+    <string name="SuperSecretLine3Mid">any key</string>
+    <string name="SuperSecretLine3Post">\u0020to continue</string>
+
+    <string name="AlwaysPlayIntro">Always play intro</string>
+    <string name="BackupHistory">Backup history</string>
+    <string name="RestoreHistory">Restore history</string>
+
+</resources>

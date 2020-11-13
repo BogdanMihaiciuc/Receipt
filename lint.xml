@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedText">
+        <ignore path="res/layout-sw600dp-land/fragment_stats.xml" />
+    </issue>
+    <issue id="SelectableText" severity="ignore" />
+</lint>

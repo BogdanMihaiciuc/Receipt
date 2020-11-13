@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ItemListRoot"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<com.BogdanMihaiciuc.util.CollectionView
+	    android:id="@+id/ItemCollection"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	    android:splitMotionEvents="false" >
+	</com.BogdanMihaiciuc.util.CollectionView>
+
+</FrameLayout>
+	
+	<!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/fragment_collection_items.xml -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- This folder contains dimensions basically for 7' landscape and all other larger tablets in any orientation -->
+
+    <dimen name="QtyWidth">100dp</dimen>
+    <dimen name="PriceWidth">125dp</dimen>
+    <dimen name="QtyRightMargin">129dp</dimen>
+    <dimen name="TitleRightMargin">229dp</dimen>
+    
+</resources>

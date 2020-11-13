@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_timestamp_dump"
+        android:orderInCategory="99"
+        android:visible="false"
+        android:title="[DEV] Full timestamp dump!"/>
+    
+    <item
+        android:id="@+id/menu_details"
+        android:orderInCategory="99"
+        android:title="@string/ShowDetails"/>
+    
+    <item
+        android:id="@+id/menu_make_active"
+        android:orderInCategory="98"
+        android:title="@string/MakeActive"/>
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings"/>
+    
+    <item
+        android:id="@+id/menu_help"
+        android:orderInCategory="101"
+        android:title="@string/menu_help"/>
+
+</menu><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/menu/fragment_viewer.xml -->

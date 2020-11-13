@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/list_background_drawable"
+    android:longClickable="true" >
+
+    <com.BogdanMihaiciuc.util.DisableableFrameLayout
+        android:id="@+id/ItemRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <View
+            android:id="@+id/SearchHighlight"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/search_overlay"
+            android:visibility="gone" />
+
+        <com.BogdanMihaiciuc.util.TagView
+            android:id="@+id/ItemTags"
+            android:layout_height="48dp"
+            android:layout_width="@dimen/SecondaryKeyline"
+            style="?android:attr/borderlessButtonStyle" />
+	        
+	    <TextView
+	        android:id="@+id/ItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="left|center_vertical"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/ItemText"
+            android:textIsSelectable="false"
+            android:layout_marginLeft="@dimen/SecondaryKeyline"
+            android:layout_marginRight="@dimen/TitleRightMargin"
+            android:maxLines="2"
+            android:ellipsize="end" />
+	
+	    <View 
+	        android:id="@+id/QtyTouchHelper"
+            android:layout_height="48dp"
+	        android:layout_width="@dimen/HistoryQtyWidth"
+	        android:background="@android:color/holo_blue_light"
+	        android:visibility="gone"
+            android:layout_marginRight="@dimen/QtyRightMargin"
+            android:layout_gravity="right"/>
+	    
+	    <TextView 
+	        android:id="@+id/QtyTitle"
+            android:layout_height="48dp"
+            android:gravity="right|center_vertical"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/DashboardTitle"
+	        android:textIsSelectable="false"
+	        android:layout_width="@dimen/HistoryQtyWidth"
+	        android:background="@drawable/field_background"
+            android:layout_marginRight="@dimen/QtyRightMargin"
+            android:layout_gravity="right" />
+	
+	    <TextView
+	        android:id="@+id/PriceTitle"
+            android:layout_height="48dp"
+            android:gravity="right|center_vertical"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/DashboardTitle"
+	        android:textIsSelectable="false"
+	        android:ellipsize="end"
+        	android:maxLines="1"
+	        android:layout_width="@dimen/HistoryPriceWidth"
+	        android:background="@drawable/field_background"
+        	android:paddingLeft="8dp"
+            android:paddingRight="@dimen/PrimaryKeyline"
+	        android:layout_gravity="right" />
+
+    </com.BogdanMihaiciuc.util.DisableableFrameLayout>
+
+</FrameLayout>

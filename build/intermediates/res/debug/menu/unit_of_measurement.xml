@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:id="@+id/UnitMenuTitle"
+          android:title="@string/MeasurementUnit"
+          android:enabled="false" />
+	
+	<item android:id="@+id/UnitCount"
+          android:title="@string/Count" />
+	
+	<item android:id="@+id/UnitGram"
+          android:title="@string/Gram" />
+	
+	<item android:id="@+id/UnitKilogram"
+          android:title="@string/Kilogram" />
+	
+	<item android:id="@+id/UnitLitre"
+          android:title="@string/Litre" />
+	
+	<item android:id="@+id/UnitOunce"
+          android:title="@string/Ounce" />
+	
+	<item android:id="@+id/UnitPound"
+          android:title="@string/Pound" />
+    
+</menu><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/menu/unit_of_measurement.xml -->

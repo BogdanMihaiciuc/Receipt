@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/separator_gray"/>
+        <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <RelativeLayout 
+            android:id="@+id/TotalRoot"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+        
+	        <TextView
+	            android:id="@+id/text_budget"
+	            android:layout_width="wrap_content"
+	            android:layout_height="64dp"
+	            android:layout_marginTop="32dp"
+	            android:layout_centerHorizontal="true"
+	            android:fontFamily="sans-serif-light"
+	            android:gravity="center"
+	            android:text="@string/budget"
+			    android:textColor="@color/light_text_gray"
+	            android:textSize="24sp" />
+	        
+	        <View
+	            android:id="@+id/separator1"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="2dp"
+		    	android:layout_below="@id/text_budget"
+		    	android:background="@color/separator_gray"
+		    	android:visibility="gone"/>
+	        
+	        <EditText
+	            android:id="@+id/budget_edit"
+	            style="?android:attr/editTextStyle"
+	            android:imeOptions="actionDone|flagNoExtractUi"
+	        	android:selectAllOnFocus="true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="64dp"
+	            android:layout_below="@id/separator1"
+	            android:layout_centerHorizontal="true"
+	            android:fontFamily="sans-serif-light"
+	            android:gravity="center"
+	            android:inputType="numberDecimal"
+	            android:minWidth="48dp"
+	            android:textColor="@color/large_price"
+	            android:textSize="36sp"
+	            android:visibility="gone" />
+	        
+	        <TextView
+	            android:id="@+id/budget_sum"
+	            android:textIsSelectable="false"
+	            style="?android:attr/spinnerStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="64dp"
+	            android:layout_below="@id/separator1"
+	            android:layout_centerHorizontal="true"
+	            android:fontFamily="sans-serif-light"
+	            android:gravity="center"
+	            android:longClickable="true"
+	            android:minWidth="48dp"
+	            android:onClick="showBudgetPopup"
+	            android:textColor="@color/large_price"
+	            android:textSize="36sp" />
+	        
+	        <Space
+	            android:id="@+id/layoutSpace1"
+	            android:layout_width="match_parent"
+	            android:layout_height="128dp"
+	            android:layout_below="@id/separator1"
+	            />
+	        
+	        <TextView
+	            android:id="@+id/text_total" 
+	            android:layout_height="64dp"
+	            android:layout_width="wrap_content" 
+	            android:layout_below="@id/layoutSpace1"
+	            android:layout_centerHorizontal="true"
+	            android:text="@string/total"
+	            android:textSize="24sp"
+	            android:gravity="center"
+	            android:fontFamily="sans-serif-light"
+			            android:textColor="@color/light_text_gray"/>
+	        
+	        <View
+	            android:id="@+id/separator2"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="2dp"
+		    	android:layout_below="@id/text_total"
+		    	android:background="@color/separator_gray"
+		    	android:visibility="gone"/>
+	        
+	         <TextView
+	            android:id="@+id/total_sum" 
+	            android:textIsSelectable="false"
+	            android:layout_width="wrap_content"
+	            android:layout_height="64dp"
+	            android:layout_below="@id/separator2"
+	            android:layout_centerHorizontal="true"
+	            android:fontFamily="sans-serif-light"
+	            android:gravity="center"
+	            android:longClickable="true"
+	            android:minWidth="48dp"
+	            android:textColor="@color/large_price"
+	            android:textSize="36sp"/>
+        
+    </RelativeLayout></ScrollView>
+
+</RelativeLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout-sw600dp-land/fragment_overview.xml -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:background="@android:color/white" >
+        
+	    <View
+		    android:layout_width="match_parent"
+		    android:layout_height="1dp"
+		    android:layout_alignParentTop="true"
+		    android:background="@color/separator_gray"/>
+        
+        <TextView
+            android:id="@+id/FooterTitle" 
+	        style="?android:attr/borderlessButtonStyle"
+	        android:duplicateParentState="false"
+	        android:drawableLeft="@drawable/caret_up"
+	        android:drawablePadding="0dp"
+	        android:paddingRight="8dp"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content" 
+            android:layout_alignParentLeft="true"
+            android:text="@string/budget"
+            android:textSize="24sp"
+            android:gravity="center|left"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/light_text_gray"/>
+        
+         <EditText
+            android:id="@+id/FooterInput" 
+	        android:duplicateParentState="false"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content" 
+            android:minWidth="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/EdgePadding"
+            android:textSize="@dimen/PriceTextSize"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/large_price"
+            android:selectAllOnFocus="true"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone|flagNoExtractUi" />
+        
+</RelativeLayout>

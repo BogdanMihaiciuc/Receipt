@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/SearchBarSize"
+    android:minHeight="48dp">
+
+    <LinearLayout
+        android:id="@+id/SearchBoxLayout"
+        android:layout_height="match_parent"
+        android:layout_width="360dp"
+        android:layout_gravity="right"
+        android:background="@drawable/dashboard_scrap"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="-6dp"
+        android:layout_marginTop="-2dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/KeylineIcon"
+            android:layout_marginLeft="@dimen/PrimaryKeyline"
+            android:layout_marginRight="@dimen/PrimaryKeyline"
+            android:scaleType="center"
+            android:src="@drawable/ic_search_dark" />
+
+        <com.BogdanMihaiciuc.util.ListenableEditText
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/null_drawable"
+            android:hint="@string/Search"
+            android:textColorHint="@color/HistoryHeader"
+            android:textSize="@dimen/TitleTextSize"
+            android:id="@+id/SearchBox"
+            android:imeOptions="actionSearch|flagNoExtractUi"
+            android:inputType="textAutoComplete"/>
+
+        <ImageButton
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/ActionBarButtonWidth"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/close_mini"
+            android:id="@+id/ClearSearch"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/layout/history_search_bar.xml -->
