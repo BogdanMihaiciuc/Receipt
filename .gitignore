@@ -1,0 +1,6 @@
+.google_apis
+bin
+build
+gen
+out
+proguard
