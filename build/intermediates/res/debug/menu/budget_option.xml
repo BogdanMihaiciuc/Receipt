@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    
-	<item android:id="@+id/menu_set_budget"
-          android:title="@string/SetBudget"
-          android:showAsAction="ifRoom|withText" />
-    
-</menu><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/menu/budget_option.xml -->

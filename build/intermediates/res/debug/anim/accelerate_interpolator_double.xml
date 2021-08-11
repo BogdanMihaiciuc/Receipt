@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<accelerateInterpolator xmlns:android="http://schemas.android.com/apk/res/android"
-    android:factor="2"
-    /><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/anim/accelerate_interpolator_double.xml -->

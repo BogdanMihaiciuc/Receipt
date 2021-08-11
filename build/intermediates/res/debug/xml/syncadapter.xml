@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
-        android:contentAuthority="com.BogdanMihaiciuc.receipt.provider" 
-        android:accountType="com.google"
-        android:userVisible="true" 
-        android:supportsUploading="true" />
-<!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/xml/syncadapter.xml -->

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_focused="true" android:color="@android:color/black"/>
-    <item android:state_pressed="true" android:state_enabled="true" android:color="@android:color/black" />
-    <item android:state_enabled="false" android:color="@color/UnlimitedBudget" />
-    <item android:color="@color/UnlimitedBudget"/>
-</selector><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/color/unlimited_budget_colors.xml -->

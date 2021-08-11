@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true" android:color="@android:color/black" />
-    <item android:color="@android:color/white"/>
-</selector><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/color/backend_scrap_white_title.xml -->

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
-    
-    <item android:state_focused="true" android:drawable="@drawable/add_balance_textbox_focused" />
-    <item android:drawable="@drawable/add_balance_textbox"/>
-
-</selector><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/drawable/add_balance_textbox_states.xml -->

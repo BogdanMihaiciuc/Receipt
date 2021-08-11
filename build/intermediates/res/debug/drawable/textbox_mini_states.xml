@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <item android:state_enabled="false" android:drawable="@drawable/textbox_mini_disabled" />
-    <item android:state_enabled="true" android:state_focused="true" android:drawable="@drawable/textbox_mini_focus" />
-    <item android:state_enabled="true" android:drawable="@drawable/textbox_mini_rest"/>
-
-</selector><!-- From: file:/Users/Bogdan/Dropbox/Receipt%20Application/Receipt/res/drawable/textbox_mini_states.xml -->
